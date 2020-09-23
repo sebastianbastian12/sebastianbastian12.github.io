@@ -1,0 +1,59 @@
+#totalcontent {
+    max-width: 760px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgb(38, 70, 83);
+}
+
+header {
+    height: 100px;
+    background-color: rgb(254, 238, 0);
+    border-radius: 10px;
+
+}
+
+.hello {
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    align-content: center;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: normal;
+}
+
+img {
+    float: right;
+    width: 120px;
+    padding-right: 25px;
+    padding-bottom: 555px;
+    position: relative;
+    z-index: 2;
+
+}
+
+h2 {
+    border-bottom: 1px solid;
+    width: 80%;
+    padding-left: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+footer {
+    text-align: center;
+    background-color: rgb(254, 238, 0);
+    height: 75px;
+    padding: 15px;
+    padding-left: 90px;
+    border-radius: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+}
+
+span {
+    text-align: center;
+    color: rgb(45, 38, 167);
+}
