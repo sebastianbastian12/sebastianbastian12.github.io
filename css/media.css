@@ -1,1 +1,32 @@
-@media screen (min-width:32.5em) 
+@media (min-width:32.5em) {
+
+    header {
+        border-radius: 10px;
+
+    }
+
+    h1 {
+        font-size: 2.5em;
+        font-weight: normal;
+
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    img {
+        float: right;
+        padding-right: 25px;
+        padding-bottom: 555px;
+    }
+
+    footer {
+
+        height: auto;
+        padding: 15px;
+        padding-left: 125px;
+        border-radius: 10px;
+        letter-spacing: 0.5px;
+    }
+}

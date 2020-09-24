@@ -8,11 +8,14 @@
 header {
     height: 100px;
     background-color: rgb(254, 238, 0);
-    border-radius: 10px;
+    height: auto;
+
+
+
 
 }
 
-.hello {
+.negative {
     background-color: white;
     border-radius: 10px;
 }
@@ -22,16 +25,7 @@ h1 {
     text-align: center;
     padding-top: 30px;
     font-family: 'Frank Ruhl Libre', serif;
-    font-weight: normal;
-}
-
-img {
-    float: right;
-    width: 120px;
-    padding-right: 25px;
-    padding-bottom: 555px;
-    position: relative;
-    z-index: 2;
+    font-size: 1.5em;
 
 }
 
@@ -40,23 +34,35 @@ h2 {
     width: 80%;
     padding-left: 15px;
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
     letter-spacing: 0.5px;
 
 }
 
+img {
+
+    display: block;
+    margin: auto;
+    width: 120px;
+
+
+
+}
+
+
+
 footer {
-    text-align: center;
     background-color: rgb(254, 238, 0);
-    height: 75px;
-    padding: 15px;
-    padding-left: 90px;
-    border-radius: 10px;
     font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
     font-weight: 600;
-    letter-spacing: 0.5px;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 1em;
 }
 
 span {
     text-align: center;
     color: rgb(45, 38, 167);
+
 }
