@@ -18,14 +18,13 @@
     img {
         float: right;
         padding-right: 25px;
-        padding-bottom: 555px;
+        
     }
 
     footer {
 
         height: auto;
         padding: 15px;
-        padding-left: 125px;
         border-radius: 10px;
         letter-spacing: 0.5px;
     }
