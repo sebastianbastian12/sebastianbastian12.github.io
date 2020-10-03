@@ -30,6 +30,7 @@ let fulldate = "Current Date:" + " " + dayName + ", " + "  " + monthName + "," +
 let lupdated = "Last Update:" + " " + string + ".";
 document.getElementById("currentdate").textContent = fulldate;
 document.getElementById("lastupdated").textContent = lupdated;
+document.getElementById("currentyear").textContent = year;
 d.getDay()
 d.getMonth()
 d.getFullYear()
