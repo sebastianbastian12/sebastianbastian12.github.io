@@ -22,6 +22,7 @@ header h1 {
     align-content: center;
     font-family: 'Secular One', sans-serif;
     -webkit-text-stroke: 1px rgba(255, 107, 18, 0.7);
+    font-size: 1.5rem;
     margin-bottom: 0;
     color: #61E0FF;
 }
@@ -77,6 +78,7 @@ nav ul li a:hover {
 
 h2 {
     text-align: center;
+    font-size: 1.2rem;
     font-family: 'Secular One', sans-serif;
     -webkit-text-stroke: 1px rgba(255, 107, 18, 0.7);
     color: #61E0FF;
