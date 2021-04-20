@@ -1,0 +1,64 @@
+#totalcontent {
+    max-width: 760px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgb(38, 70, 83);
+}
+
+header {
+    height: 100px;
+    background-color: rgb(254, 238, 0);
+    height: auto;
+}
+
+.negative {
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    align-content: center;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.5em;
+
+}
+
+h2 {
+    border-bottom: 1px solid;
+    width: 80%;
+    padding-left: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+
+}
+
+img {
+
+    display: block;
+    margin: auto;
+    width: 120px;
+
+
+
+}
+
+
+
+footer {
+    background-color: rgb(254, 238, 0);
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 1em;
+}
+
+span {
+    text-align: center;
+    color: rgb(45, 38, 167);
+
+}
