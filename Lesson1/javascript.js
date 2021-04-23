@@ -31,4 +31,3 @@ let lUpdated = `Last Update: ${string}.`;
 document.querySelector("#currentdate").textContent = fullDate;
 document.querySelector("#lastupdated").textContent = lUpdated;
 document.querySelector("#currentyear").textContent = year;
-"yellow";
