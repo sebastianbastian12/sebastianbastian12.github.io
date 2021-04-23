@@ -147,12 +147,17 @@ footer a {
 }
 
 footer p {
-    margin-bottom: 0;
+    margin: 0;
     font-size: 2.5rem;
 }
 
 footer span {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    color: var(--thirdColor);
+}
+
+.year {
+    color: black;
 }
 
 @media (min-width: 470px) {
