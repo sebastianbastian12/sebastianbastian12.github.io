@@ -73,7 +73,7 @@ li {
 }
 
 .main-container__photo {
-    float: block;
+    display: block;
     border-radius: 2%;
     max-width: 100%;
     width: 18rem;
