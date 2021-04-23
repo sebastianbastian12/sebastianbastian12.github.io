@@ -80,7 +80,7 @@ li {
     margin: auto;
 }
 
-@media (min-width: 470px) {
+@media (min-width: 365px) {
     .main-container__photo {
         display: block;
         margin: auto;
