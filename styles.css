@@ -42,6 +42,10 @@ li {
 
 /*body*/
 
+body {
+    margin: 0 auto;
+}
+
 .width-body {
     max-width: 120rem;
     background-color: var(--PrimaryColor);
