@@ -1,0 +1,152 @@
+:root {
+    --PrimaryColor: #0A2342;
+    --secundaryColor: #1E398F;
+    --thirdColor: #FFFDF7;
+    --fourthColor: #FCE900;
+    --fifthColor: #D4DCCD;
+    --fontHeading: 'Libre Baskerville', serif;
+    --fontText: 'Barlow Condensed', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/*body*/
+
+body {
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color: var(--PrimaryColor);
+}
+
+
+/*header*/
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: var(--fontHeading);
+}
+
+.header {
+    background-color: var(--secundaryColor);
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    color: var(--thirdColor);
+    font-size: 3rem;
+}
+
+header h2 {
+    color: var(--thirdColor);
+    font-size: 2rem;
+}
+
+
+/*main*/
+
+main p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+main h3 {
+    font-size: 1.8rem;
+}
+
+.width-main {
+    margin: 0 auto 0 0;
+}
+
+.grid p {
+    max-width: 35rem;
+    padding: 0 1rem 0 1rem;
+    font-family: var(--fontText);
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/*Main grid(Class)*/
+
+.grid {
+    background-color: var(--fifthColor);
+    padding: 2rem;
+}
+
+.grid h3 {
+    background-color: var(--fourthColor);
+    padding: 1rem 2rem;
+}
+
+
+/*Main Images*/
+
+img {
+    max-width: 100%;
+    border: solid 5px var(--thirdColor);
+}
+
+.alkostoimg {
+    margin: 0;
+}
+
+.bbvaimg {
+    display: block;
+    margin: auto;
+}
+
+
+/*Main p and a*/
+
+.title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: var(--fontText);
+}
+
+.text-content {
+    text-align: justify !important;
+    font-weight: 300;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: var(--secundaryColor);
+    border-radius: 0rem 0rem 1rem 1rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    height: auto;
+}
+
+footer a {
+    color: var(--thirdColor);
+}
+
+footer p {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+footer span {
+    font-size: 2.2rem;
+    color: var(--fourthColor);
+}
+
+.year {
+    color: var(--thirdColor);
+}
