@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plan site of a weather online page.Shows 4 pages that describes the structure site.">
+    <link rel="preload" href="/normalize.css" as="style">
+    <link rel="stylesheet" href="/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="preload" href="/Lesson4/small04.css" as="style">
+    <link rel="stylesheet" href="/Lesson4/small04.css">
+    <link rel="preload" href="/Lesson4/medium04.css" as="style">
+    <link rel="stylesheet" href="/Lesson4/medium04.css">
+    <link rel="preload" href="/Lesson4/large04.css" as="style">
+    <link rel="stylesheet" href="/Lesson4/large04.css">
+    <title>The W Today Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="page-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-umbrella" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bc62d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 12a8 8 0 0 1 16 0z" />
+                <path d="M12 12v6a2 2 0 0 0 4 0" />
+              </svg>
+        </div>
+        <div class="text-header">
+            <h1>The W Today</h1>
+            <p class="p-header">know today, know success.</p>
+        </div>
+    </header>
+    <div class="navigation">
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul class="navigation-links">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="/Lesson4/preston-4.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="main-content">
+            <section class="main-content__section">
+                <h3 class="main-content__section--heading">Hero W/ Weather Summary</h3>
+            </section>
+
+
+            <section class="main-content__section">
+                <h3 class="main-content__section--heading">5 Day Forecast</h3>
+            </section>
+
+            <section class="main-content__section">
+                <h3 class="main-content__section--heading">Article</h3>
+            </section>
+
+            <section class="main-content__section">
+                <h3 class="main-content__section--heading">Contact Information</h3>
+            </section>
+        </div>
+    </main>
+</body>
+<footer class="footer">
+    <span>&copy;</span><span id="currentyear"></span><span> | Sebastian Oliveros Vasquez | Bogota, Colombia | </span><a target="_blank" href="https://www.byui.edu/online">
+        BYU-I Online Learning</a>
+    <br><span id="currentdate"></span>
+    <br><span id="lastupdated"></span>
+
+</footer>
+<script src="/javascript.js"></script>
+
+</html>

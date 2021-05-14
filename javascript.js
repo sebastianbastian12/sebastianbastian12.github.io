@@ -1,3 +1,6 @@
+function toggleMenu() {
+    document.getElementsByClassName("navigation-links")[0].classList.toggle("responsive");
+}
 let days = [
     "Sunday",
     "Monday",

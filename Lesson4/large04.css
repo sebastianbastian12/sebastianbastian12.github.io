@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+    h1 {
+        font-size: 7rem;
+        color: var(--third-color);
+        margin: 0;
+    }
+    h2 {
+        font-size: 5.5rem;
+        color: var(--secondary-color);
+    }
+    .p-header {
+        font-size: 3rem;
+    }
+    /*Navigation*/
+    .navigation-links {
+        display: flex;
+    }
+    .navigation-links {
+        max-width: 100rem;
+    }
+}
