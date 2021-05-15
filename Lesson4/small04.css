@@ -17,17 +17,6 @@
     }
     /*General Styles*/
     
-    h1 {
-        font-size: 7rem;
-        color: var(--third-color);
-        margin: 0;
-    }
-    
-    h2 {
-        font-size: 5.5rem;
-        color: var(--secondary-color);
-    }
-    
     h1,
     h2,
     h3,
@@ -49,8 +38,19 @@
         padding: 4rem 0;
     }
     
+    h1 {
+        font-size: 4rem;
+        color: var(--third-color);
+        margin: 0;
+    }
+    
+    h2 {
+        font-size: 3.5rem;
+        color: var(--secondary-color);
+    }
+    
     .p-header {
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: center;
         color: var(--third-color);
         margin: 0;
@@ -58,9 +58,10 @@
     /*Navigation*/
     
     nav button {
-        margin: 0 auto;
+        margin: 0 auto 2rem 0;
         background-color: transparent;
-        border: none;
+        border: 1px solid var(--primary-color);
+        border-radius: 1px;
         font-size: 2.5rem;
     }
     
@@ -73,18 +74,23 @@
     }
     
     .navigation-links {
-        max-width: 115rem;
-        display: block;
-        gap: 5rem;
+        text-align: center;
         font-size: 3rem;
         list-style: none;
+        padding: 0;
     }
     
     .navigation-links li a {
+        display: block;
         font-size: 2.5rem;
+        font-weight: 600;
         text-decoration: none;
         color: var(--fourth-color);
-        padding: 1rem;
+        padding: .6rem;
+    }
+    
+    .navigation-links li:first-child {
+        display: block;
     }
     
     .navigation-links li a:hover {
@@ -114,7 +120,7 @@
     }
     
     .main-content__section--heading {
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-weight: 200;
         color: var(--secondary-color);
     }
@@ -128,7 +134,7 @@
         text-align: center;
         font-weight: 500;
         padding: 20px;
-        font-size: 20px;
+        font-size: 16px;
     }
     
     footer a {

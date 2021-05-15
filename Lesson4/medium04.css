@@ -1,4 +1,4 @@
-@media (min-width:680px) {
+@media (min-width:702px) {
     /*Header*/
     h1 {
         font-size: 5rem;
@@ -12,7 +12,7 @@
     /*Navigation*/
     .navigation-links li a {
         display: flex;
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     .p-header {
         font-size: 2rem;
@@ -20,17 +20,27 @@
         color: var(--third-color);
         margin: 0;
     }
+    .navigation li {
+        display: flex;
+    }
     .navigation-links {
         max-width: 85rem;
         margin: 4rem auto 0 auto;
         display: flex;
         gap: 2rem;
         font-size: 3rem;
-        list-style: none;
+        text-align: center;
         justify-content: center;
         padding: 0 0 1.5rem 0;
         border-left: 3px solid var(--secondary-color);
         border-right: 3px solid var(--secondary-color);
         border-bottom: 3px solid var(--secondary-color);
+    }
+    .navigation-links li:first-child {
+        display: none;
+    }
+    /*footer*/
+    footer {
+        font-size: 18px;
     }
 }
