@@ -32,6 +32,11 @@
     .main-content__section--headingA {
         border-radius: 5px;
     }
+    .main-content__section--heading {
+        max-width: 30rem;
+        border-radius: 5px;
+        padding: 2rem;
+    }
     /*footer*/
     footer {
         font-size: 20px;
