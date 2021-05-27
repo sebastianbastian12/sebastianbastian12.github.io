@@ -1,6 +1,9 @@
+/*Menu desplegable code*/
 function toggleMenu() {
     document.getElementsByClassName("navigation-links")[0].classList.toggle("responsive");
 }
+
+/*Current day and last mofofication code*/
 let days = [
     "Sunday",
     "Monday",
@@ -34,3 +37,18 @@ let lUpdated = `Last Update: ${string}.`;
 document.querySelector("#currentdate").textContent = fullDate;
 document.querySelector("#lastupdated").textContent = lUpdated;
 document.querySelector("#currentyear").textContent = year;
+
+/*Pancakes code*/
+
+let infoDay = new Date();
+let pancake = [infoDay.getDay()];
+if (pancake == 5) {
+    document.querySelector(".pancakes").style.display = "block";
+} else {
+    document.querySelector(".pancakes").style.display = "none";
+
+}
+
+/*Font library code*/
+
+WebFont.load({ google: { families: ["Quicksand", "Secular One"] } });
