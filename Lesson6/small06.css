@@ -54,7 +54,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 3rem;
-    padding: 4rem 0;
+    padding: 6rem 0;
 }
 
 h1 {
@@ -68,11 +68,13 @@ h2 {
     color: var(--secondary-color);
 }
 
-.p-header {
-    font-size: 2rem;
-    text-align: center;
-    color: var(--third-color);
-    margin: 0;
+.h-header {
+    font-size: 3rem;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 200;
+    text-align: center !important;
+    color: var(--third-color) !important;
+    margin: 0 !important;
 }
 
 
@@ -105,7 +107,7 @@ nav button {
 .navigation-links li a {
     display: block;
     font-size: 2.2rem;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     color: var(--fourth-color);
     padding: .6rem;
@@ -116,11 +118,12 @@ nav button {
 }
 
 .navigation-links li a:hover {
-    background-color: var(--primary-color);
+    background-color: rgba(215, 121, 63, .6);
 }
 
 .navigation-links .active a {
-    background-color: var(--primary-color);
+    background-color: rgba(215, 121, 63, .6);
+    ;
 }
 
 
