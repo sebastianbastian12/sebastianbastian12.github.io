@@ -212,6 +212,69 @@ main h2 {
 }
 
 
+/*Galllery*/
+
+.info,
+.calculation {
+    max-width: 70rem;
+    margin: 5rem auto;
+    padding: 1rem;
+    font-size: 4rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
+}
+
+.calculation {
+    max-width: 120rem;
+}
+
+.content {
+    text-align: center;
+    max-width: 100%;
+}
+
+.header-gallery {
+    font-family: 'Secular One', sans-serif;
+    font-size: 4rem;
+    color: var(--third-color);
+    background-color: rgba(4, 19, 61, .8);
+    margin: 7rem 0 0 0;
+    padding: 2rem 0;
+}
+
+.gallery picture img {
+    max-width: 100%;
+    margin-bottom: .5rem;
+}
+
+img:hover {
+    box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
+}
+
+figcaption:hover {
+    box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
+}
+
+figcaption {
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    padding: 2rem 0;
+}
+
+picture img[data-src] {
+    filter: blur(1em);
+}
+
+picture img {
+    display: block;
+    margin: 0 auto 5px auto;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+
 /*Forecast*/
 
 
@@ -263,6 +326,10 @@ main h2 {
 
 
 /*Footer*/
+
+.footer-gallery {
+    max-width: none;
+}
 
 footer {
     max-width: 125rem;
