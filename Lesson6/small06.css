@@ -243,7 +243,7 @@ main h2 {
     padding: 2rem 0;
 }
 
-.gallery picture img {
+.gallery figure img {
     max-width: 100%;
     margin-bottom: .5rem;
 }
