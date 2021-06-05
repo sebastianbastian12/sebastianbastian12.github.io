@@ -248,15 +248,7 @@ main h2 {
     margin-bottom: .5rem;
 }
 
-img:hover {
-    box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
-}
-
-figcaption:hover {
-    box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
-}
-
-figcaption {
+.text-image {
     font-size: 2rem;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;

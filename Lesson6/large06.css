@@ -51,7 +51,7 @@
         border-radius: 5px;
         padding: 2rem;
     }
-    picture:hover {
+    .sect-image:hover {
         box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
     }
     @media (min-width: 868px) {
