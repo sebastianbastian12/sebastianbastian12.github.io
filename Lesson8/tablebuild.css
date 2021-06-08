@@ -18,6 +18,7 @@ table {
     max-width: 1200px;
     margin: 0 auto;
     border-collapse: collapse;
+    box-shadow: 15px 15px 25px 8px rgba(4, 19, 61, .9);
 }
 
 thead th {
