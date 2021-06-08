@@ -60,6 +60,9 @@ tr:nth-child(even) {
     thead {
         display: grid;
     }
+    table {
+        box-shadow: none;
+    }
     table tr {
         display: block;
         margin-bottom: 15px;
