@@ -83,3 +83,8 @@ let date2 = new Date(fecha2);
 let subtraction = date1.getTime() - date2.getTime();
 let result = Math.round(subtraction / oneDay);
 document.querySelector('.calculation').textContent = `Number of days between your last visit and today: ${result} days.`;
+
+/*Getting the rate in the form*/
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}

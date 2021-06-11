@@ -285,6 +285,154 @@ picture img {
 }*/
 
 
+/*Form section*/
+
+
+/*-------------------------------------------*/
+
+main h2.form {
+    max-width: 50rem;
+    border-radius: 5px;
+    margin: 10rem auto 2rem auto;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgba(4, 19, 61, .8);
+}
+
+.main {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 60rem;
+    width: 96%;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid rgba(215, 121, 63, .6);
+    border-radius: 10px;
+    padding: 3rem 2rem;
+}
+
+form legend,
+label {
+    display: block;
+    font-family: 'Secular One', sans-serif;
+    color: #04133D;
+    font-size: 2.2rem;
+}
+
+form label.uInfo input,
+form input.iStorm,
+form select.iStorm {
+    height: 44px;
+    width: 100%;
+    max-width: 100rem;
+    display: block;
+    border-radius: 4px;
+    border: 2px solid rgba(215, 121, 63, .6);
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: .75rem;
+    font-size: 2rem;
+}
+
+form label.iStorm__radio input {
+    margin-top: 1.5rem;
+    height: 20px;
+    width: 5%;
+}
+
+form label.iStorm {
+    margin-top: 3rem;
+}
+
+form input.iStorm {
+    font-size: 2rem;
+}
+
+form input.ranges {
+    width: 70%;
+    max-width: 70rem;
+    color: #04133D;
+}
+
+form label.lranges {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+    color: #2075ff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+textarea {
+    height: 20rem;
+    width: 100%;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form input.button {
+    border: none;
+    background-color: rgba(215, 121, 63, .7);
+    font-family: 'Quicksand', sans-serif;
+    color: #04133D;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    width: 96%;
+    max-width: 100rem;
+    font-size: 2rem;
+    font-weight: 700;
+    border: 7px double rgba(0, 0, 0, 0.5);
+}
+
+form input.button:hover {
+    cursor: pointer;
+}
+
+
+/*Thanks section*/
+
+.bodyThanks {
+    height: 63rem;
+}
+
+.tThanks1 {
+    max-width: 45rem;
+    margin: 25rem auto 2rem auto;
+    width: 96%;
+    font-size: 3.2rem;
+    text-align: center;
+    color: #D7793F;
+    background-color: white;
+    border: 5px solid #04133D;
+    border-radius: 10px;
+}
+
+.tThanks2 {
+    max-width: 105rem;
+    margin: 0rem auto;
+    width: 100%;
+    font-size: 2rem;
+    color: #04133D;
+    background-color: white;
+    text-decoration: underline 3px solid;
+    letter-spacing: -1px;
+}
+
+
+/*-------------------------------------------------*/
+
+
 /*Image article*/
 
 .def-img2 {
