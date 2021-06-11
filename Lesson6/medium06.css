@@ -14,10 +14,10 @@
             display: flex;
             font-size: 2rem;
         }
-        .p-header {
+        form select option {
             font-size: 2rem;
             text-align: center;
-            color: var(--third-color);
+            color: #04133D;
             margin: 0;
         }
         .navigation li {
@@ -131,7 +131,7 @@
                 font-size: 2rem;
                 color: #04133D;
                 background-color: white;
-                text-decoration: underline 3px solid;
+                text-decoration: underline;
                 letter-spacing: -1px;
             }
         }

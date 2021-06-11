@@ -50,17 +50,17 @@
         <form target="_blank" action="thanks.html">
             <fieldset>
                 <legend>Your Information</legend>
-                <label class="uInfo">Full Name*<input type="text" minlength="5" pattern="[A-Za-z]+{5,100}"placeholder="Full Name" name="fname" required></label class="uInfo">
-                <label class="uInfo">Email*<input type="email" placeholder="example@gmail.com" name="email" required></label class="uInfo">
-                <label class="uInfo">Phone*<input type="tel" placeholder="Phone number" name="phone" required></label class="uInfo">
+                <label class="uInfo">Full Name*<input type="text" minlength="5" pattern="[A-Za-z]+{5,100}" placeholder="Full Name" name="fname" required></label>
+                <label class="uInfo">Email*<input type="email" placeholder="example@gmail.com" name="email" required></label>
+                <label class="uInfo">Phone*<input type="tel" placeholder="Phone number" name="phone" required></label>
                 <label class="uInfo">Zip Code*<input type="number" placeholder="Zip Code" name="zcode" required></label>
             </fieldset>
             <fieldset>
                 <legend>Storm Information</legend>
                 <label class="iStorm">Storm Date*</label>
                 <input class="iStorm" type="date" name="date">
-                <label class="iStorm">Tell Us The Storm Events</label>
-                <input class="iStorm" type="text" list="storms">
+                <label class="iStorm">Tell Us The Storm Events <br><input class="iStorm" type="text" list="storms"></label>
+
                 <datalist id="storms">                
                 <option class="option" value="" disabled="" selected="">--Select the storm type--</option>
                 <option value="Flash Flood"></option>
@@ -69,7 +69,7 @@
                 <option value="Thunderstorm"></option>
                 <option value="Tornado"></option>
                 </datalist>
-                <label class="lranges" for="rating">Rating The Storm (1 to 10): &nbsp;&nbsp;&nbsp; </label>
+                <label class="lranges" for="rating">Rating The Storm (1 to 10): &nbsp;&nbsp;&nbsp;</label>
                 <input class="ranges" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 <span id="ratingvalue">5</span>
 
@@ -87,13 +87,13 @@
                 <option value="9">
                 <option value="10">
                 </datalist>
-                <label class="iStorm">Wich Region Are You Located</label>
+                <label class="iStorm">Wich Region Are You Located
                 <select class="iStorm" name="regions">
-                <option value="" disabled="" selected =""><span class="p">--Select The Region--</span></option>
+                <option value="" disabled="" selected ="">--Select The Region--</option>
                 <option value="Preston">Preston</option>
                 <option value="Soda Springs">Soda Springs</option>
                 <option value="Fish Haven">Fish Haven</option>
-                </select>
+                </select></label>
                 <label class="iStorm">You Are In Danger?</label>
 
                 <label class="iStorm__radio"><input class="r" type="radio" name="answer" value="yes"> Yes.</label>
@@ -103,14 +103,14 @@
             </fieldset>
             <fieldset>
                 <legend>Your Opinions Are Important To Us</legend>
-                <label class="uInfo">Leave Your Comments</label>
-                <textarea name="comments" cols="30" rows="10"></textarea>
+                <label class="uInfo">Leave Your Comments
+                <textarea name="comments" cols="30" rows="10"></textarea></label>
             </fieldset>
             <input class="button" type="submit" value="SEND INFO">
         </form>
     </main>
     <footer class="footer-gallery">
-        <span>&copy;</span><span id="currentyear"></span><span> | Sebastian Oliveros Vasquez | Bogota, Colombia | </span><a target="_blank " href="https://www.byui.edu/online ">
+        <span>&copy;</span><span id="currentyear"></span><span> | Sebastian Oliveros Vasquez | Bogota, Colombia | </span><a target="_blank" href="https://www.byui.edu/online ">
         BYU-I Online Learning</a>
         <br><span id="currentdate"></span>
         <br><span id="lastupdated"></span>

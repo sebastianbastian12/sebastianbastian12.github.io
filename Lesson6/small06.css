@@ -425,7 +425,7 @@ form input.button:hover {
     font-size: 2rem;
     color: #04133D;
     background-color: white;
-    text-decoration: underline 3px solid;
+    text-decoration: underline;
     letter-spacing: -1px;
 }
 
