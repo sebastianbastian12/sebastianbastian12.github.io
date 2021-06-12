@@ -52,13 +52,13 @@
         <div class="main-content">
             <div class="main-content__relative">
                 <div class="main-content__hero">
-                    <picture>
+                    <!--<picture>
                         <source media="(max-width: 525px)" srcset="/Lesson6/images-06/small526px.jpg">
                         <source media="(max-width: 800px)" srcset="/Lesson6/images-06/medium800px.jpg">
                         <source media="(max-width: 1200px)" srcset="/Lesson6/images-06/large1200px.jpg">
                         <img class="def-img" src="/Lesson6/images-06/herodefault.jpg" alt="Hero">
 
-                    </picture>
+                    </picture>-->
 
                     <section class="weather-summary">
                         <h3 class="main-content__section--headingW">Weather Summary</h3>
@@ -74,8 +74,76 @@
             </div>
 
 
-            <section class="main-content__section">
+            <section class="main-content__section--forecast">
                 <h3 class="main-content__section--heading">5 Day Forecast</h3>
+                <table>
+                    <tbody>
+                        <div class="ha">
+                            <thead>
+                                <th class="tHead">Wed</th>
+                                <th class="tHead">Thu</th>
+                                <th class="tHead">Fri</th>
+                                <th class="tHead">Sat</th>
+                                <th class="tHead">Sun</th>
+
+                            </thead>
+                        </div>
+                        <tr>
+                            <th class="tRow">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-snowflake" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M10 4l2 1l2 -1m-2 -2v6.5l3 1.72" />
+                                    <path d="M10 4l2 1l2 -1m-2 -2v6.5l3 1.72" transform="rotate(60 12 12)" />
+                                    <path d="M10 4l2 1l2 -1m-2 -2v6.5l3 1.72" transform="rotate(120 12 12)" />
+                                    <path d="M10 4l2 1l2 -1m-2 -2v6.5l3 1.72" transform="rotate(180 12 12)" />
+                                    <path d="M10 4l2 1l2 -1m-2 -2v6.5l3 1.72" transform="rotate(240 12 12)" />
+                                    <path d="M10 4l2 1l2 -1m-2 -2v6.5l3 1.72" transform="rotate(300 12 12)" />
+                                  </svg>
+                            </th>
+                            <th class="tRow">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <circle cx="12" cy="12" r="4" />
+                                    <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
+                                  </svg>
+                            </th>
+                            <th class="tRow">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cloud-storm" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1" />
+                                    <polyline points="13 14 11 18 14 18 12 22" />
+                                  </svg>
+                            </th>
+                            <th class="tRow">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cloud-fog" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M7 16a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-12" />
+                                    <line x1="5" y1="20" x2="19" y2="20" />
+                                  </svg>
+                            </th>
+                            <th class="tRow">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cloud-snow" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7" />
+                                    <path d="M11 15v.01m0 3v.01m0 3v.01m4 -4v.01m0 3v.01" />
+                                  </svg>
+
+
+
+                            </th>
+                        </tr>
+                        <tr>
+                            <th class="tinfo">89°F</th>
+                            <th class="tinfo">87°F</th>
+                            <th class="tinfo">78°F</th>
+                            <th class="tinfo">75°F</th>
+                            <th class="tinfo">72°F</th>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+
             </section>
 
             <section class="main-content__section__article">
@@ -101,8 +169,40 @@
 
             </section>
 
-            <section class="main-content__section">
+            <section class="main-content__section--info">
                 <h3 class="main-content__section--heading">Contact Information</h3>
+                <div class="overall">
+
+                    <img class="imgLocation" src="/Lesson6/images-06/map.PNG" alt="map">
+
+                    <div class="contact-area--info">
+                        <h3>Phone Number</h3>
+                        <p>+1 324 568 9874</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                        <path d="M15 7a2 2 0 0 1 2 2" />
+                        <path d="M15 3a6 6 0 0 1 6 6" />
+                      </svg>
+                        <h3>Contact Email</h3>
+                        <p>contactus@thewday.com</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="3" y="5" width="18" height="14" rx="2" />
+                        <polyline points="3 7 12 13 21 7" />
+                      </svg>
+
+                        <h3>Address Location</h3>
+                        <p>False St 123 Springfield Tomorrowland</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="11" r="3" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                      </svg>
+
+
+                    </div>
+                </div>
             </section>
 
 
