@@ -461,15 +461,15 @@
         /*Forecast Section*/
         
         .main-content__section--forecast {
-            background-color: rgba(76, 161, 163, .6);
             margin: 5rem 0;
+            border: 1px solid black;
         }
         
         table {
-            margin: 3rem auto;
+            margin: 10rem auto;
             max-width: 100%;
             width: 80%;
-            padding: 5rem 0 10rem 0;
+            background-color: rgba(4, 19, 61, .6);
         }
         
         .tHead,
