@@ -1,0 +1,15 @@
+{
+    "prophets": [{
+            "id": 1,
+            "nombre": "Juan",
+            "puesto": "programador"
+
+        },
+        {
+            "id": 1,
+            "nombre": "Juan",
+            "puesto": "programador"
+
+        }
+    ]
+}

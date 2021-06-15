@@ -463,6 +463,7 @@
         .main-content__section--forecast {
             margin: 5rem 0;
             border: 1px solid black;
+            border-radius: 8px 0 0 0;
         }
         
         table {
