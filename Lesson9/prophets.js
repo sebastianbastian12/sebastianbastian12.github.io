@@ -15,8 +15,8 @@ fetch(source)
 
 
             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-            h3.textContent = prophets[i].birthdate;
-            h4.textContent = prophets[i].birthplace;
+            h3.textContent = 'Date Of Birth: ' + prophets[i].birthdate;
+            h4.textContent = 'Place Of Birth: ' + prophets[i].birthplace;
             img.setAttribute('src', prophets[i].imageurl)
             img.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + '-' + (i + 1))
 
