@@ -1,0 +1,128 @@
+@media (min-width:1002px) {
+    /*Navigation*/
+    .navigation-links li a {
+        display: flex;
+        font-size: 2rem;
+    }
+    .navigation li {
+        display: flex;
+    }
+    .navigation-links {
+        max-width: 90rem;
+        margin: 0rem auto 0 auto;
+        display: flex;
+        gap: 2rem;
+        font-size: 3rem;
+        text-align: center;
+        justify-content: center;
+        padding: 0 0 1.5rem 0;
+        border-top: 1px solid var(--secondary-color);
+        background-color: var(--primary-color);
+    }
+    .navigation-links li:first-child {
+        display: none;
+    }
+    .navigation-links .active a {
+        background-color: rgba(215, 121, 63, .6);
+    }
+    /*Article Image*/
+    .article {
+        width: 96%;
+        margin: 0 auto;
+    }
+    .imgChocolate {
+        position: static;
+        float: left;
+        margin: 2rem 2rem .5rem 0;
+    }
+    .ciudades {
+        max-width: 102rem !important;
+        margin: 5rem auto;
+    }
+    h1 {
+        font-size: 7rem;
+        font-family: 'Secular One', sans-serif;
+        margin: 0;
+    }
+    h2 {
+        font-size: 3rem;
+        margin: 0 !important;
+    }
+    section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 98rem !important;
+        position: relative;
+        margin: 2rem auto;
+    }
+    img {
+        position: absolute;
+    }
+    section:nth-child(1) h2,
+    h3 {
+        grid-column: 1;
+    }
+    section:nth-child(2) h2,
+    h3 {
+        grid-column: 2;
+    }
+    section:nth-child(3) h2,
+    h3,
+    p {
+        grid-column: 1;
+    }
+    section:nth-child(even) p {
+        grid-column: 2;
+    }
+    section:nth-child(even) h3 {
+        grid-column: 2;
+    }
+    section:nth-child(odd) img {
+        grid-column: 2;
+    }
+    section:nth-child(n) img {
+        height: 327px;
+        width: 49rem;
+    }
+    section:nth-child(n) h2 {
+        grid-row: 1;
+        padding: 1rem 0;
+    }
+    section:nth-child(n) h3 {
+        grid-row: 2;
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    section:nth-child(n) p {
+        font-size: 2.3rem;
+    }
+    section:nth-child(1) h2 {
+        border-radius: 10px 0 0 0;
+    }
+    section:nth-child(1) img {
+        border-radius: 0 10px 0 0;
+    }
+    section:nth-child(3) img {
+        border-radius: 0 0 10px 0;
+    }
+    section:nth-child(2) h2 {
+        border-radius: 0 0 0 0;
+    }
+    section:nth-child(3) h2 {
+        border-radius: 0 0 0 0;
+    }
+    section:nth-of-type(3) {
+        border-radius: 0 0 10px 10px;
+    }
+    @media (min-width: 1100px) {
+        .overall {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr;
+            padding: 5rem;
+        }
+    }
+    /*footer*/
+    footer {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,89 @@
+@media (min-width: 1410px) {
+    .p-header {
+        font-size: 3rem;
+    }
+    /*Navigation*/
+    .navigation-links {
+        display: flex;
+    }
+    .navigation-links li a {
+        font-size: 2.3rem;
+        font-weight: 500;
+    }
+    .navigation-links .active a {
+        background-color: rgba(215, 121, 63, .6);
+    }
+    /*main*/
+    /*Article Image*/
+    .imgChocolate {
+        position: static;
+        float: left;
+        margin: 2rem 2rem .5rem 0;
+    }
+    h2 {
+        border-radius: 10px 10px 0 0 !important;
+    }
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    p {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    img {
+        max-width: 100%;
+        width: 490px;
+        height: 310px;
+        border-radius: 0 !important;
+    }
+    .ciudades {
+        max-width: none !important;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-bottom: 35.5rem;
+        gap: 1rem;
+    }
+    section {
+        display: block;
+        max-width: 180rem !important;
+        border-radius: 10px 10px 0 0 !important;
+        margin: 0;
+    }
+    /*Contact Section*/
+    .main-content__section--info {
+        max-width: 120rem;
+        margin: 15rem auto 0 auto;
+        background-color: rgba(215, 121, 63, .7);
+    }
+    .main-content__section--heading {
+        padding-top: 2rem;
+    }
+    @media (min-width:400px) {
+        .overall {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr;
+            padding: 5rem;
+        }
+    }
+    .imgLocation {
+        padding: 0 0 0 2rem;
+        position: static;
+    }
+    .contact-area--info {
+        grid-column: 2/3;
+        margin: 0;
+    }
+    .uno {
+        display: flex;
+        align-items: center;
+        font-size: 3rem;
+    }
+    .iUno {
+        margin-right: 2rem;
+    }
+    /*footer*/
+    footer {
+        font-size: 20px;
+    }
+}
