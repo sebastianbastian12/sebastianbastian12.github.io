@@ -48,8 +48,11 @@ h1 {
     font-family: 'Secular One', sans-serif;
 }
 
-.esqueleto {
-    width: 10rem;
+.w {
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #04133D;
 }
 
 .hHome {
