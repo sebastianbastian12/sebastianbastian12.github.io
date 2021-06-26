@@ -57,6 +57,7 @@ h1 {
 
 .hHome {
     font-size: 5rem;
+    font-weight: 500;
     color: #FFFFFF;
     background-color: rgba(4, 19, 61, .8);
     text-align: center;
@@ -192,6 +193,7 @@ h3 {
 p {
     font-size: 2.5rem !important;
     line-height: 1;
+    font-family: 'Quicksand', sans-serif !important;
 }
 
 img {
@@ -295,7 +297,6 @@ p {
 .imgLocation {
     padding: 0 0 0 2rem;
     position: static;
-    max-width: 100%;
 }
 
 .contact-area--info {
@@ -307,7 +308,6 @@ p {
     display: flex;
     align-items: center;
     font-size: 3rem;
-    justify-content: center !important;
     margin-top: 2rem;
     line-height: 1;
 }

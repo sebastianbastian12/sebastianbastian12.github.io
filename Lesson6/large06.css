@@ -76,10 +76,8 @@
     .main-content__section--headingA {
         border-radius: 5px;
     }
-    .main-content__section--heading {
-        max-width: 30rem;
-        border-radius: 5px;
-        padding: 2rem;
+    .main-content__section--forecast {
+        border-radius: 10px 10px 0 0;
     }
     .sect-image:hover {
         box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
@@ -109,6 +107,37 @@
             max-width: 100%;
             margin: 0 0 1rem 0;
         }
+    }
+    /*Contact Section*/
+    .main-content__section--info {
+        max-width: 120rem;
+        margin: 15rem auto 0 auto;
+        background-color: rgba(215, 121, 63, .7);
+    }
+    @media (min-width:1100px) {
+        .overall {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr;
+            padding: 5rem;
+            gap: 15rem;
+        }
+    }
+    .imgLocation {
+        padding: 0 0 0 2rem;
+        position: static;
+        max-width: 120%;
+    }
+    .contact-area--info {
+        grid-column: 2/3;
+        margin: 0;
+    }
+    .uno {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .iUno {
+        margin-right: 2rem;
     }
     /*footer*/
     footer {

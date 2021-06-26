@@ -143,11 +143,12 @@
         .main-content__section--heading {
             color: var(--secondary-color);
             background-color: rgba(4, 19, 61, .8);
-            max-width: 30rem;
             padding: 2rem;
-            border-radius: 5px;
-            font-size: 2.2rem;
+            font-size: 2.8rem;
             font-weight: 200;
+            text-align: center;
+            margin-bottom: 3rem;
+            max-width: 100%;
         }
         /*hero*/
         
@@ -292,7 +293,7 @@
         form legend,
         label {
             display: block;
-            font-family: 'Secular One', sans-serif;
+            font-family: 'Quicksand', sans-serif;
             color: #04133D;
             font-size: 2.2rem;
         }
@@ -461,8 +462,9 @@
         
         .main-content__section--forecast {
             margin: 5rem 0;
-            border: 1px solid black;
-            border-radius: 8px 0 0 0;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
         }
         
         table {
@@ -472,60 +474,134 @@
             background-color: rgba(4, 19, 61, .6);
         }
         
-        .tHead,
-        .tRow,
-        .tinfo {
-            padding: 1rem .5rem;
-        }
-        
-        .tHead {
+        .tHead1,
+        .tHead2,
+        .tHead3,
+        .tHead4,
+        .tHead5 {
             color: var(--secondary-color);
+            background-color: #04133D;
             font-size: 2.5rem;
             padding: 2rem;
         }
         
-        .tHead {
-            background-color: #04133D;
-        }
-        
-        .tinfo {
+        .tinfo1,
+        .tinfo2,
+        .tinfo3,
+        .tinfo4,
+        .tinfo5 {
             background-color: rgba(4, 19, 61, .7);
             color: var(--secondary-color);
             font-size: 2rem;
+            padding: 0 2rem;
+        }
+        
+        .icon1,
+        .icon2,
+        .icon3,
+        .icon4,
+        .icon5 {
+            max-width: 500rem;
+            width: 10rem;
+            display: block;
+            margin: auto;
         }
         /*Contact Section*/
         
-        .contact-area--info {
-            margin: 5rem auto 0 0;
-        }
-        
-        .imgLocation {
-            padding: 5rem;
-            float: left;
-            max-width: 100%;
-            margin-right: 3rem;
+        .main-content__section--info {
+            max-width: 96%;
+            margin: 15rem auto 0 auto;
+            border-radius: 10px;
+            background-color: rgba(215, 121, 63, .7);
         }
         
         .overall {
-            display: flex;
-            max-width: 100%;
+            margin: 0 auto;
+            text-align: center;
         }
         
-        .main-content__section--info {
-            background-color: rgba(215, 121, 63, .7);
-            margin: 5rem 0;
-            max-width: 100%;
+        .imgLocation {
+            padding: 0rem;
+            position: static;
+            max-width: 90%;
         }
         
-        .contact-area--info h3,
-        p {
-            font-size: 2rem;
-        }
-        
-        .contact-area--info h3 {
-            margin-top: 2rem;
-        }
-        
-        .contact-area--info p {
+        .contact-area--info {
+            grid-column: 2/3;
             margin: 0;
+            padding: 2rem 0;
+        }
+        
+        .uno {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            line-height: 1;
+        }
+        
+        .iUno {
+            margin-right: 2rem;
+        }
+        /*Table Forescast Section*/
+        
+        table,
+        tr {
+            border-radius: 10px;
+        }
+        
+        td {
+            border-radius: 10px 8px 10px 8px;
+        }
+        
+        tbody {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            max-width: 100rem;
+        }
+        
+        .days {
+            grid-column: 1/2;
+            grid-row: 1;
+            text-align: center;
+        }
+        
+        .tHead1,
+        .tHead2,
+        .tHead3,
+        .tHead4,
+        .tHead5 {
+            display: block;
+            font-size: 3rem;
+            padding: 3.9rem 0;
+        }
+        
+        .symbols {
+            margin-top: 1rem;
+            text-align: center;
+            display: grid;
+        }
+        
+        .tRow {
+            display: block;
+            margin-top: .5rem;
+            grid-column: 2/3;
+            grid-row: 1;
+        }
+        
+        .temp {
+            text-align: center;
+        }
+        
+        .tinfo1,
+        .tinfo2,
+        .tinfo3,
+        .tinfo4,
+        .tinfo5 {
+            display: block;
+            font-size: 3rem;
+            padding: 3.9rem 0;
+            grid-column: 3/4;
+            grid-row: 1;
         }

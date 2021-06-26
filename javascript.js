@@ -54,7 +54,7 @@ if (pancake == 5) {
 
 
 
-if (localStorage.veces == undefined) {
+/*if (localStorage.veces == undefined) {
     localStorage.veces = 1;
 } else {
     localStorage.veces = Number(localStorage.veces) + 1;
@@ -74,15 +74,6 @@ WebFont.load({ google: { families: ["Quicksand", "Secular One"] } });
 window.localStorage.date = `${infoDate.getDate()} ${monthName} ${year}`;
 let fecha1 = localStorage.date;
 let fecha2 = new Date();
-
-
-
-let oneDay = 1000 * 60 * 60 * 24;
-let date1 = new Date(fecha1);
-let date2 = new Date(fecha2);
-let subtraction = date1.getTime() - date2.getTime();
-let result = Math.round(subtraction / oneDay);
-document.querySelector('.calculation').textContent = `Number of days between your last visit and today: ${result} days.`;
 
 /*Getting the rate in the form*/
 function adjustRating(rating) {

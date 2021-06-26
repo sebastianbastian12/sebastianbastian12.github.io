@@ -44,10 +44,54 @@
             width: 100%;
             height: 35rem;
         }
+        /*Table Forescast Section*/
+        table {
+            width: 0%;
+        }
+        table,
+        tr {
+            border-radius: 10px;
+        }
+        td {
+            border-radius: 10px 8px 10px 8px;
+        }
+        tbody {
+            display: block;
+        }
+        .days,
+        .symbols,
+        .temp {
+            display: flex;
+        }
+        .tHead1,
+        .tHead2,
+        .tHead3,
+        .tHead4,
+        .tHead5 {
+            padding: 2rem 5.8rem;
+        }
+        .tinfo1,
+        .tinfo2,
+        .tinfo3,
+        .tinfo4,
+        .tinfo5 {
+            padding: 2rem 5.4rem;
+            background-color: rgba(4, 19, 61, .7);
+            color: var(--secondary-color);
+        }
+        .tRow1,
+        .tRow2,
+        .tRow3,
+        .tRow4,
+        .tRow5 {
+            padding: 2rem 3.2rem;
+            font-size: 3rem;
+        }
         /*main sections*/
         main h2 {
             border-radius: 5px;
             margin: 20rem auto 5rem auto;
+            font-weight: 500;
         }
         .main-content__relative {
             position: relative;
@@ -58,13 +102,14 @@
             padding: 5rem;
             box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
         }
-        /*
-    .main-content__article--image {
-        float: right;
-        max-width: 32rem;
-        margin: 3rem 0 0 1.5rem;
-    }
-    */
+        .main-content__section--heading {
+            color: var(--secondary-color);
+            background-color: rgba(4, 19, 61, .8);
+            padding: 2rem;
+            font-weight: 200;
+            max-width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
         /*form section*/
         .main {
             max-width: 120rem;
@@ -94,6 +139,7 @@
             margin-bottom: 2rem;
             padding: .75rem;
             font-size: 2.2rem;
+            font-weight: 200;
         }
         form input.iStorm {
             font-size: 2.5rem;
@@ -184,5 +230,4 @@
         footer {
             font-size: 18px;
         }
-        /*---------------------------------*/
     }

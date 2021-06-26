@@ -37,7 +37,7 @@
             <ul class="navigation-links">
                 <li><button onclick="toggleMenu()">&#9776; Menu</button></li>
                 <li><a href="/Lesson9/index.html">Home</a></li>
-                <li class="active"><a href="/Lesson10/preston-10.html">Preston</a></li>
+                <li class="active"><a href="/Lesson6/preston-6.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a class="active" href="/Lesson8/stormcenter.html">Storm Center</a></li>
@@ -63,15 +63,16 @@
                     <section class="weather-summary">
                         <h3 class="main-content__section--headingW">Weather Summary</h3>
                         <ul>
-                            <li>Currently: <span>Sunny</span></li>
+                            <li>Currently: <span class="currently"></span></li>
                             <li>High:<span class="temperature"></span></li>
-                            <li>Humidity:<span>48%</span></li>
+                            <li>Humidity:<span class="humidity"></span></li>
                             <li>Wind Chill: <span class="wChill"></span></li>
                             <li>Wind Speed: <span class="speed"></span></li>
                         </ul>
                     </section>
                 </div>
             </div>
+
             <section class="main-content__section--forecast">
                 <h3 class="main-content__section--heading">5 Day Forecast</h3>
                 <table>
@@ -105,80 +106,78 @@
                             <td class="tinfo5"></td>
                         </tr>
 
-        </div>
-        </tbody>
-        </table>
-        </section>
+
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="main-content__section__article">
+                <h3 class="main-content__section--headingA">A Donut shower is forecast this coming week</h3>
+                <picture>
+                    <source media="(max-width: 525px)" srcset="/Lesson6/images-06/small262.5px.jpg">
+                    <source media="(max-width: 800px)" srcset="/Lesson6/images-06/medium400px.jpg">
+                    <source media="(max-width: 1400px)" srcset="/Lesson6/images-06/large600px.jpg">
+                    <img class="def-img2" src="/Lesson6/images-06/donutdefault.jpg" alt="donut">
+
+                </picture>
+                <p class="main-content__article--text">
+                    Aenean eu scelerisque massa. Curabitur non ex vitae dui pretium varius. Nulla enim ex, lobortis vel sodales sit amet, sagittis in metus. Proin id erat suscipit, sodales nisl ut, pellentesque mi. Donec vel eros at ipsum hendrerit mollis vitae imperdiet
+                    ex. Maecenas sit amet vulputate lacus. Sed massa nibh, laoreet eget purus eu, accumsan efficitur ipsum. Morbi suscipit odio sed magna sagittis, eu hendrerit massa blandit. Praesent ac convallis ante. Integer vel placerat justo. Ut
+                    volutpat urna eu risus varius blandit. Vestibulum posuere rhoncus lacus.</p>
+
+                <p class="main-content__article--text"> Vestibulum aliquam sollicitudin arcu, id accumsan diam hendrerit sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eget elit et quam laoreet mattis eu at quam. Pellentesque habitant
+                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut consectetur arcu vel sodales dignissim. Vivamus auctor nisl nec velit bibendum, quis bibendum ante eleifend. Proin at justo arcu. Maecenas dapibus rhoncus ipsum.
+                    Nulla aliquet est rutrum, rutrum arcu sed, tempor enim. Phasellus auctor hendrerit diam, a tincidunt eros. Vivamus euismod vestibulum rhoncus. Cras eros dui, porta eget nulla eu, maximus vehicula nisl. Phasellus massa diam, sagittis
+                    eget risus ac, luctus suscipit sapien. Nam vulputate vitae dolor nec feugiat.Vestibulum aliquam sollicitudin arcu, id accumsan diam hendrerit sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    Vivamus eget elit et quam laoreet mattis eu at quam. </p>
 
 
+            </section>
 
-        <section class="main-content__section__article">
-            <h3 class="main-content__section--headingA">A Donut shower is forecast this coming week</h3>
-            <picture>
-                <source media="(max-width: 525px)" srcset="/Lesson6/images-06/small262.5px.jpg">
-                <source media="(max-width: 800px)" srcset="/Lesson6/images-06/medium400px.jpg">
-                <source media="(max-width: 1400px)" srcset="/Lesson6/images-06/large600px.jpg">
-                <img class="def-img2" src="/Lesson6/images-06/donutdefault.jpg" alt="donut">
+            <div class="main-content__section--info">
+                <h3 class="main-content__section--heading">Contact Information</h3>
+                <div class="overall">
+                    <div class="imagen">
+                        <img class="imgLocation" src="/Lesson6/images-06/map.PNG" alt="map"></div>
 
-            </picture>
-            <p class="main-content__article--text">
-                Aenean eu scelerisque massa. Curabitur non ex vitae dui pretium varius. Nulla enim ex, lobortis vel sodales sit amet, sagittis in metus. Proin id erat suscipit, sodales nisl ut, pellentesque mi. Donec vel eros at ipsum hendrerit mollis vitae imperdiet
-                ex. Maecenas sit amet vulputate lacus. Sed massa nibh, laoreet eget purus eu, accumsan efficitur ipsum. Morbi suscipit odio sed magna sagittis, eu hendrerit massa blandit. Praesent ac convallis ante. Integer vel placerat justo. Ut volutpat
-                urna eu risus varius blandit. Vestibulum posuere rhoncus lacus.</p>
-
-            <p class="main-content__article--text"> Vestibulum aliquam sollicitudin arcu, id accumsan diam hendrerit sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eget elit et quam laoreet mattis eu at quam. Pellentesque habitant morbi
-                tristique senectus et netus et malesuada fames ac turpis egestas. Ut consectetur arcu vel sodales dignissim. Vivamus auctor nisl nec velit bibendum, quis bibendum ante eleifend. Proin at justo arcu. Maecenas dapibus rhoncus ipsum. Nulla
-                aliquet est rutrum, rutrum arcu sed, tempor enim. Phasellus auctor hendrerit diam, a tincidunt eros. Vivamus euismod vestibulum rhoncus. Cras eros dui, porta eget nulla eu, maximus vehicula nisl. Phasellus massa diam, sagittis eget risus
-                ac, luctus suscipit sapien. Nam vulputate vitae dolor nec feugiat.Vestibulum aliquam sollicitudin arcu, id accumsan diam hendrerit sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus
-                eget elit et quam laoreet mattis eu at quam. </p>
+                    <div class="contact-area--info">
 
 
-        </section>
-
-        <div class="main-content__section--info">
-            <h3 class="main-content__section--heading">Contact Information</h3>
-            <div class="overall">
-                <div class="imagen">
-                    <img class="imgLocation" src="/Lesson6/images-06/map.PNG" alt="map"></div>
-
-                <div class="contact-area--info">
-
-
-                    <div class="uno">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <div class="uno">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                     <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                                     <path d="M15 7a2 2 0 0 1 2 2" />
                                     <path d="M15 3a6 6 0 0 1 6 6" />
                                   </svg>
 
-                        <p> + 1 324 568 9874</p>
+                            <p> + 1 324 568 9874</p>
 
 
-                    </div>
-                    <div class="uno">
+                        </div>
+                        <div class="uno">
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                 <rect x="3" y="5" width="18" height="14" rx="2" />
                                 <polyline points="3 7 12 13 21 7" />
                               </svg>
-                        <p>contactus@thewday.com</p>
+                            <p>contactus@thewday.com</p>
 
-                    </div>
-                    <div class="uno">
+                        </div>
+                        <div class="uno">
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                 <circle cx="12" cy="11" r="3" />
                                 <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
                             </svg>
-                        <p>False St 123 Springfield Tomorrowland</p>
-                    </div>
+                            <p>False St 123 Springfield Tomorrowland</p>
+                        </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
 
 
         </div>
@@ -192,7 +191,6 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="/javascript.js"></script>
-    <script src="/Lesson6/windChill06.js"></script>
     <script src="/Lesson10/weatherapi.js"></script>
 
 
