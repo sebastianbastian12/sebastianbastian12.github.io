@@ -45,7 +45,7 @@ fetch(keyForecast)
         let day = 0;
         const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
-        let forecastInfo = fData2.list.filter(forescast => forescast.dt_txt.includes('18:00:00'));
+        let forecastInfo = fData2.list.filter(forescast => forescast.dt_txt);
         console.log(forecastInfo);
 
 

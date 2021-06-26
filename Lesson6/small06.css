@@ -196,8 +196,17 @@
         }
         /*Galllery*/
         
-        .info,
-        .calculation {
+        .info {
+            max-width: 70rem;
+            margin: 5rem auto;
+            padding: 1rem;
+            font-size: 4rem;
+            font-family: 'Quicksand', sans-serif;
+            text-align: center;
+            box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
+        }
+        
+        #calculation {
             max-width: 70rem;
             margin: 5rem auto;
             padding: 1rem;
