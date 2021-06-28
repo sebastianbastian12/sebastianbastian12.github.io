@@ -44,48 +44,50 @@
             width: 100%;
             height: 35rem;
         }
-        /*Table Forescast Section*/
-        table {
-            width: 0%;
-        }
-        table,
-        tr {
-            border-radius: 10px;
-        }
-        td {
-            border-radius: 10px 8px 10px 8px;
-        }
-        tbody {
-            display: block;
-        }
-        .days,
-        .symbols,
-        .temp {
-            display: flex;
-        }
-        .tHead1,
-        .tHead2,
-        .tHead3,
-        .tHead4,
-        .tHead5 {
-            padding: 2rem 5.8rem;
-        }
-        .tinfo1,
-        .tinfo2,
-        .tinfo3,
-        .tinfo4,
-        .tinfo5 {
-            padding: 2rem 5.4rem;
-            background-color: rgba(4, 19, 61, .7);
-            color: var(--secondary-color);
-        }
-        .tRow1,
-        .tRow2,
-        .tRow3,
-        .tRow4,
-        .tRow5 {
-            padding: 2rem 3.2rem;
-            font-size: 3rem;
+        @media (min-width: 865px) {
+            /*Table Forescast Section*/
+            table {
+                width: 0%;
+            }
+            table,
+            tr {
+                border-radius: 10px;
+            }
+            td {
+                border-radius: 10px 8px 10px 8px;
+            }
+            tbody {
+                display: block;
+            }
+            .days,
+            .symbols,
+            .temp {
+                display: flex;
+            }
+            .tHead1,
+            .tHead2,
+            .tHead3,
+            .tHead4,
+            .tHead5 {
+                padding: 2rem 6rem;
+            }
+            .tinfo1,
+            .tinfo2,
+            .tinfo3,
+            .tinfo4,
+            .tinfo5 {
+                padding: 2rem 5.5rem;
+                background-color: rgba(4, 19, 61, .7);
+                color: var(--secondary-color);
+            }
+            .tRow1,
+            .tRow2,
+            .tRow3,
+            .tRow4,
+            .tRow5 {
+                padding: 2rem 3.2rem;
+                font-size: 3rem;
+            }
         }
         /*main sections*/
         main h2 {
