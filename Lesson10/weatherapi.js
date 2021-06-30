@@ -62,3 +62,27 @@ fetch(keyForecast)
             day++
         })
     })
+
+/*Section events with json*/
+
+const recurso = 'preston.json';
+fetch(recurso)
+    .then(datos => datos.json())
+    .then(datos2 => {
+        const town = datos2['towns'];
+
+        let city = document.createElement('section');
+        let p1 = document.createElement('p');
+        let p2 = document.createElement('p');
+        let p3 = document.createElement('p');
+        p1.textContent = town.events[0];
+        p2.textContent = town.events[1];
+        p3.textContent = town.events[2];
+
+        city.appendChild(p1);
+        city.appendChild(p2);
+        city.appendChild(p3);
+
+        document.querySelector('div.events3').appendChild(city);
+
+    })

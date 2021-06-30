@@ -137,7 +137,7 @@ a {
 /*Her Image*/
 
 .main-content--hero {
-    background: url(/Lesson5/images-05/originalHero.jpg);
+    background: url(/Lesson5/images-05/herobetterone.webp);
     background-size: cover;
     background-position: center bottom;
     height: 50rem;
@@ -276,7 +276,7 @@ p {
 }
 
 
-/*Contact Section*/
+/*Contact Information*/
 
 .main-content__section--info {
     max-width: 96%;
@@ -285,29 +285,32 @@ p {
     background-color: rgba(215, 121, 63, .7);
 }
 
-.main-content__section--heading {
-    padding-top: 2rem;
-}
-
 .overall {
     margin: 0 auto;
     text-align: center;
 }
 
 .imgLocation {
-    padding: 0 0 0 2rem;
+    padding: 0rem;
     position: static;
+    max-width: 90%;
+    height: auto !important;
 }
 
 .contact-area--info {
     grid-column: 2/3;
     margin: 0;
+    padding: 2rem 0;
+}
+
+.uno p {
+    font-size: 1.5rem !important;
 }
 
 .uno {
     display: flex;
     align-items: center;
-    font-size: 3rem;
+    justify-content: center;
     margin-top: 2rem;
     line-height: 1;
 }
@@ -316,12 +319,12 @@ p {
     margin-right: 2rem;
 }
 
-
-/*Footer*/
-
 .footer-gallery {
     max-width: none;
 }
+
+
+/*Footer*/
 
 footer {
     max-width: 100%;

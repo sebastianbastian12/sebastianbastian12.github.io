@@ -39,6 +39,9 @@
         max-width: 102rem !important;
         margin: 5rem auto;
     }
+    .uno p {
+        font-size: 2.5rem !important;
+    }
     h1 {
         font-size: 7rem;
         font-family: 'Secular One', sans-serif;

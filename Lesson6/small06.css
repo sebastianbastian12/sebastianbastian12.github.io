@@ -260,16 +260,65 @@
             filter: blur(0em);
             transition: filter 0.5s;
         }
-        /*Forecast*/
-        /*Article*/
-        /*
-.main-content__article--image {
-    display: block;
-    margin: 5rem auto 0 auto;
-    max-width: 30rem;
-}*/
+        /*Events section*/
+        
+        .events,
+        .events2,
+        .events3 {
+            max-width: 96%;
+        }
+        
+        .events {
+            margin: 7rem auto;
+            font-size: 2rem;
+            border-left: 10px double rgba(215, 121, 63, .6);
+            border-bottom: 10px double rgba(215, 121, 63, .6);
+            border-right: 10px double rgba(215, 121, 63, .6);
+            text-align: center;
+        }
+        
+        .events h2 {
+            margin: 1rem 0 0 0;
+            font-size: 2.5rem;
+            padding: 2rem 0;
+            background-color: bisque;
+        }
+        
+        .events2 {
+            margin: 7rem auto;
+            font-size: 2rem;
+            border-left: 10px double rgba(4, 19, 61, .8);
+            border-bottom: 10px double rgba(4, 19, 61, .8);
+            border-right: 10px double rgba(4, 19, 61, .8);
+            text-align: center;
+        }
+        
+        .events2 h2 {
+            margin: 1rem 0 0 0;
+            font-size: 2.5rem;
+            padding: 2rem 0;
+            color: #04133D;
+            background-color: rgba(4, 19, 61, .6);
+        }
+        
+        .events3 {
+            margin: 7rem auto;
+            font-size: 2rem;
+            border-left: 10px double rgb(76, 161, 163, .5);
+            border-bottom: 10px double rgb(76, 161, 163, .5);
+            border-right: 10px double rgb(76, 161, 163, .5);
+            text-align: center;
+        }
+        
+        .events3 h2 {
+            margin: 1rem 0 0 0;
+            border-radius: none !important;
+            font-size: 2.5rem;
+            padding: 2rem 0;
+            color: #4ca1a3;
+            background-color: rgb(76, 161, 163, .5);
+        }
         /*Form section*/
-        /*-------------------------------------------*/
         
         main h2.form {
             max-width: 50rem;

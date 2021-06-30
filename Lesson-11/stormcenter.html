@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather page that shows the Preston children page, and also a promotion pancake day on Saturdays.">
+    <link rel="shortcut icon" href="/Lesson4/images-04/favicon-04.svg" type="image/x-icon">
+    <link rel="preload" href="/normalize.css" as="style">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="preload" href="/Lesson6/small06.css" as="style">
+    <link rel="stylesheet" href="/Lesson6/small06.css">
+    <link rel="preload" href="/Lesson6/medium06.css" as="style">
+    <link rel="stylesheet" href="/Lesson6/medium06.css">
+    <link rel="preload" href="/Lesson6/large06.css" as="style">
+    <link rel="stylesheet" href="/Lesson6/large06.css">
+    <title>The W Today | Storm Report</title>
+</head>
+
+<body>
+    <div class="pancakes">
+        Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <header>
+        <div class="page-logo">
+
+            <a href="/Lesson9/index.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-umbrella" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bc62d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 12a8 8 0 0 1 16 0z" />
+                <path d="M12 12v6a2 2 0 0 0 4 0" />
+              </svg></a>
+        </div>
+        <div class="text-header">
+            <h1>The W Today</h1>
+            <h2 class="h-header">know today, know success.</h2>
+        </div>
+    </header>
+    <div class="navigation">
+        <nav>
+
+            <ul class="navigation-links">
+                <li><button onclick="toggleMenu()">&#9776; Menu</button></li>
+                <li><a href="/Lesson-11/index.html">Home</a></li>
+                <li><a href="/Lesson-11/preston.html">Preston</a></li>
+                <li><a href="/Lesson-11/sodasprings.html">Soda Springs</a></li>
+                <li><a href="/Lesson-11/fishhaven.html">Fish Haven</a></li>
+                <li class="active"><a href="/Lesson-11/stormcenter.html">Storm Center</a></li>
+                <li><a href="/Lesson-11/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main class="main">
+        <h2 class="form">Let Us Know To Let You Know</h2>
+        <form target="_blank" action="thanks.html">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label class="uInfo">Full Name*<input type="text" minlength="5" pattern="[A-Za-z]+{5,100}" placeholder="Full Name" name="fname" required></label>
+                <label class="uInfo">Email*<input type="email" placeholder="example@gmail.com" name="email" required></label>
+                <label class="uInfo">Phone*<input type="tel" placeholder="Phone number" name="phone" required></label>
+                <label class="uInfo">Zip Code*<input type="number" placeholder="Zip Code" name="zcode" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="iStorm">Storm Date* <br>
+                <input class="iStorm" type="date" name="date"></label>
+                <label class="iStorm">Tell Us The Storm Events <br><input class="iStorm" type="text" list="storms"></label>
+
+                <datalist id="storms">                
+                <option class="option" value="" disabled="" selected="">--Select the storm type--</option>
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurracaine"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Tornado"></option>
+                </datalist>
+                <label class="lranges" for="rating">Rating The Storm (1 to 10): &nbsp;&nbsp;&nbsp;</label>
+                <input class="ranges" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+
+
+                <datalist id="tickmarks">
+                <option value="0">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+                </datalist>
+                <label class="iStorm">Wich Region Are You Located
+                <select class="iStorm" name="regions">
+                <option value="" disabled="" selected ="">--Select The Region--</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda Springs">Soda Springs</option>
+                <option value="Fish Haven">Fish Haven</option>
+                </select></label>
+                <label class="iStorm">You Are In Danger?</label>
+
+                <label class="iStorm__radio"><input class="r" type="radio" name="answer" value="yes"> Yes.</label>
+                <label class="iStorm__radio"><input type="radio" name="answer" value="maybe"> Maybe.</label>
+                <label class="iStorm__radio"><input type="radio" name="answer" value="no"> No.</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Your Opinions Are Important To Us</legend>
+                <label class="uInfo">Leave Your Comments
+                <textarea name="comments" cols="30" rows="10"></textarea></label>
+            </fieldset>
+            <input class="button" type="submit" value="SEND INFO">
+        </form>
+    </main>
+    <footer class="footer-gallery">
+        <span>&copy;</span><span id="currentyear"></span><span> | Sebastian Oliveros Vasquez | Bogota, Colombia | </span><a target="_blank" href="https://www.byui.edu/online ">
+        BYU-I Online Learning</a>
+        <br><span id="currentdate"></span>
+        <br><span id="lastupdated"></span>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/Lesson6/windChill06.js"></script>
+    <script src="/javascript.js"></script>
+    <script></script>
+
+
+</body>
+
+
+</html>
