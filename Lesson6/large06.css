@@ -67,7 +67,7 @@
     .def-img2 {
         display: block;
         float: right;
-        width: 40%;
+        width: 45% !important;
         margin: 3.5% 2% 0 2%;
     }
     .main-content__article--text {

@@ -459,10 +459,17 @@
         /*-------------------------------------------------*/
         /*Image article*/
         
+        small {
+            float: right;
+            font-size: 1.5rem;
+            padding: 1rem;
+        }
+        
         .def-img2 {
             display: block;
             margin: 2% auto;
-            width: 60%;
+            width: 96%;
+            border: 10px double rgba(4, 19, 61, .3);
         }
         
         .main-content__article--text {
