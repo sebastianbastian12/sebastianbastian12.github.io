@@ -1,0 +1,66 @@
+{
+    "companies": [{
+            "name": "KFC",
+            "name2": "kfc",
+            "logo": "https://www.mallsyoutletsvivo.cl/vivo-san-fernando/wp-content/uploads/sites/9/2019/05/logo-kfc.png",
+            "url": "www.kfc.co"
+        },
+        {
+            "name": "Corral",
+            "name2": "corral",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d8/El_Corral.jpg",
+            "url": "www.pideenlinea.elcorral.com/"
+        },
+
+        {
+            "name": "Dollar City",
+            "name2": "dollarcity",
+            "logo": "https://dollarcity.com/img/dollarFB.png",
+            "url": "https://dollarcity.com/"
+        },
+
+        {
+            "name": "BBVA Bank",
+            "name2": "bbva",
+            "logo": "https://metcommunity.org/espana/wp-content/uploads/sites/2/2018/05/BBVA-logo-2018-.png",
+            "url": "https://www.bbva.com.co/"
+        },
+
+        {
+            "name": "Kokorico",
+            "name2": "kokorico",
+            "logo": "https://res.cloudinary.com/civico/image/upload/c_fit,f_auto,fl_lossy,h_1200,q_auto:low,w_1200/v1/entity/image/file/803/000/52d8068f31e93cba86000803.jpg",
+            "url": "https://www.kokoriko.com.co/?gclid=Cj0KCQjwxdSHBhCdARIsAG6zhlX8IpArqa2dAz7RK-0V6_qGlTJ4gs01qXn3lkbnDp6SkqOMYYorMvYaAgyeEALw_wcB"
+        },
+
+        {
+            "name": "Tigo",
+            "name2": "tigo",
+            "logo": "https://pbs.twimg.com/media/EoGWQC3XMAIiAuv.png",
+            "url": "https://tigo-hogar.com.co/p/tigo?gclid=Cj0KCQjwxdSHBhCdARIsAG6zhlU3t38mVKU99IyewsWbHiTRzrdLI8pBi24rh55R-9kjsazgwamnPlMaApEvEALw_wcB"
+        },
+
+        {
+            "name": "Jenós Pizza",
+            "name2": "jenospizza",
+            "logo": "data:image/jpeg;base64,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",
+            "url": "https://www.jenospizza.com.co/"
+        },
+
+        {
+            "name": "Ara",
+            "name2": "ara",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsM0KesnLlRKz0fH8r5tneA5zH9zp0VWXGl0uvIt6A57gPbyueFuBW0Bn3tFQCJSClB6s&usqp=CAU",
+            "url": "https://aratiendas.com/"
+        },
+
+        {
+            "name": "Justo Y Bueno",
+            "name2": "justoybueno",
+            "logo": "https://pbs.twimg.com/profile_images/803992961893761024/TiHHYuPL.jpg",
+            "url": "https://monedero.justoybueno.com/home"
+        }
+
+
+    ]
+}
