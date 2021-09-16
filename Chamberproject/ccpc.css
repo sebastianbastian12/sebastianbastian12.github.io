@@ -62,6 +62,7 @@
         max-width: 100%;
         color: var(--primary);
         text-shadow: -5px -5px 5px black;
+        padding: 0 1rem;
     }
     
     .slogan {
@@ -85,7 +86,6 @@
     h1 {
         font-size: 5rem;
         text-align: center;
-        margin: 4rem;
     }
     
     h2 {
@@ -123,7 +123,7 @@
     .header-section {
         max-width: 100%;
         margin: 0 !important;
-        border: 30px solid var(--secondary);
+        border: 10px solid var(--secondary);
     }
     
     .header-content {
@@ -202,7 +202,7 @@
     .cards {
         margin: 0 auto;
         display: block;
-        padding: 5rem;
+        padding: 0rem;
     }
     
     .cards-section h1 {
@@ -304,7 +304,6 @@
     /*Main weather summary - companies*/
     
     .wc-section {
-        margin: 20rem 5rem;
         padding: 8rem 0;
         box-shadow: 0px 1px 1px 3px rgba(4, 19, 61, .3);
     }
@@ -321,7 +320,7 @@
     .wc-division {
         max-width: 200rem;
         display: block;
-        padding: 2rem;
+        padding: 1.2rem;
     }
     
     .temp {
@@ -350,7 +349,7 @@
         border-radius: 15px;
         text-align: center;
         background-color: rgba(153, 217, 140, .2);
-        padding: 8rem;
+        padding: 2rem;
         box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
     }
     
@@ -425,6 +424,7 @@
     
     .space3 h1 {
         color: gray;
+        font-size: 2rem;
     }
     
     .ejc-division {

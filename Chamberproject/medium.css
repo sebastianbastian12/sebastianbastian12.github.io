@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     html {
         font-size: 62.5%;
         box-sizing: border-box;
@@ -17,6 +17,9 @@
         --sixth: #f0f8ff;
     }
     /*header*/
+    .header-section {
+        border: 30px solid var(--secondary);
+    }
     .principal-heading {
         font-size: 4rem;
     }
@@ -89,6 +92,9 @@
     /*Section events, join, contact*/
     .space3 {
         padding: 9rem 0;
+    }
+    .space3 h1 {
+        font-size: 3.5rem;
     }
     .ejc-division {
         display: block;
