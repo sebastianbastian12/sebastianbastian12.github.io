@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/*Color variables*/
+
+$backgroundcolor: #000000;
+$header-hover: #6495ED;
+$backgroundcolor-article:#FFFFFF;
+$background-main:#FAEBD7;
+$active: #DEB887;
+
+/*Font-family variables*/
+
+$font-headers:lora;
+$font-main: Arial,
+Helvetica,
+sans-serif;
+
+/*Sizes page*/
+
+$break-medium: 900px;
+
+/*Mixin declaractions*/
+
+@mixin mediaQuery ($break) {
+    @if $break==medium {
+        @media (min-width: $break-medium) {
+            @content
+        }
+    }
+}
+
+@mixin no-decoration {
+    text-decoration: none;
+}
+
+@mixin yes-decoration {
+    text-decoration: underline;
+}
+
+
+/*A nesting declaration*/
+
+body {
+    background-color: $backgroundcolor;
+    & div {
+        @include mediaQuery(medium) {
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 25% 80%;
+        }
+        header {
+            text-align: right;
+            grid-column: 1/2;
+        }
+        main {
+            grid-column: 2/3;
+        }
+        max-width: 1000px;
+        margin: auto 0;
+    }
+}
+
+
+/*Headers*/
+
+h1,
+h2 {
+    font-family: $font-headers;
+}
+
+header {
+    background-color: $header-hover;
+    padding: 2rem;
+    text-align: right;
+}
+
+
+/*Images*/
+
+img {
+    max-width: 100%;
+}
+
+
+/*Main*/
+
+main {
+    background-color: $background-main;
+    padding: 2rem;
+}
+
+main,
+nav ul li {
+    font-family: $font-main;
+    list-style: none;
+    padding: .2rem 0;
+}
+
+
+/*article*/
+
+article {
+    max-width: 35rem;
+    padding: 2rem;
+    margin: 2rem auto;
+    background-color: $backgroundcolor-article;
+    box-shadow: 4px 2px 2px 2px rgba(4, 19, 61, .2);
+    text-align: center;
+}
+
+article div {
+    text-align: left;
+}
+
+article p {
+    text-align: justify;
+}
+
+
+/*links*/
+
+a,
+a:visited {
+    color: $header-hover;
+    @include no-decoration;
+}
+
+nav ul li a {
+    color: $background-main;
+}
+
+nav ul li a:hover {
+    color: $backgroundcolor-article;
+    @include yes-decoration;
+}
+
+main {
+    background-color: $background-main;
+    padding: 2rem;
+}
+
+header h1 a {
+    color: $background-main !important;
+}
+
+nav li a:visited {
+    color: $background-main;
+    text-decoration: none;
+}
+
+article h2 a:hover,
+article p a:hover {
+    color: $header-hover;
+    @include yes-decoration;
+}
+
+article h2 a,
+a:visited {
+    color: $backgroundcolor;
+}
+
+article p a:visited {
+    color: $header-hover;
+    @include no-decoration;
+}
+
+nav ul li a:active,
+article h2 a:active,
+a:active,
+article p a:active {
+    color: $active;
+}

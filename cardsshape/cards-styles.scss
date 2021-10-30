@@ -1,0 +1,144 @@
+$one-col:1;
+$two-col:2;
+$eight-col:8;
+$margin-zero:0;
+$margin-uno:1;
+$margin-dos:2;
+$base-value: 12.5%;
+$loop-start: 1;
+$loop-end: $eight-col+1;
+//Mixins//
+@mixin col($span-num) {
+    @if $span-num==1 {
+        flex: 0 0 $base-value * $one-col;
+    }
+    @else if $span-num==2 {
+        flex: 0 0 $base-value * $two-col;
+    }
+    @else if $span-num==3 {
+        flex: 0 0 $base-value * $two-col;
+    }
+    @else if $span-num==5 {
+        flex: 0 0 $base-value * $two-col;
+    }
+    @else if $span-num==6 {
+        flex: 0 0 $base-value * $two-col;
+    }
+    @else if $span-num==7 {
+        flex: 0 0 $base-value * $two-col;
+    }
+    @else if $span-num==8 {
+        flex: 0 0 $base-value * $two-col;
+    }
+    @else if $span-num==4 {
+        flex: 0 0 $base-value * $eight-col;
+    }
+    @else if $span-num==9 {
+        flex: 0 0 $base-value * $one-col;
+    }
+}
+
+@mixin offset($offset-num) {
+    @if $offset-num==1 {
+        margin-left: $base-value * $margin-zero;
+    }
+    @else if $offset-num==2 {
+        margin-left: $base-value * $margin-zero;
+    }
+    @else if $offset-num==4 {
+        margin-left: $base-value * $margin-zero;
+    }
+    @else if $offset-num==9 {
+        margin-left: $base-value * $margin-zero;
+    }
+    @else if $offset-num==5 {
+        margin-left: $base-value * $margin-uno;
+    }
+    @else if $offset-num==7 {
+        margin-left: $base-value * $margin-uno;
+    }
+    @else if $offset-num==3 {
+        margin-left: $base-value * $margin-dos;
+    }
+    @else if $offset-num==6 {
+        margin-left: $base-value * $margin-dos;
+    }
+    @else if $offset-num==8 {
+        margin-left: $base-value * $margin-dos;
+    }
+}
+
+//variables to setup basic size and shape of the card and pips
+$card-width: 40vw;
+$card-height: $card-width*1.4;
+$font-size-number: $card-width * 0.1;
+$icon-size: $card-width / 5;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+//styles to draw a basic outline of a card
+.card {
+    border: 5px solid grey;
+    height: $card-height;
+    width: $card-width;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 4px grey;
+}
+
+//because it is a card front we want a bit of extra padding
+.card-front {
+    padding: .5em;
+}
+
+//set icon size
+.icon {
+    width: $icon-size;
+    height: $icon-size;
+}
+
+.number {
+    text-align: center;
+    font-size: $font-size-number;
+    &>.icon {
+        width: $icon-size *.5;
+        height: $icon-size *.5;
+    }
+}
+
+//rotate bottom pips 180deg
+.rotate {
+    transform: rotate(180deg);
+}
+
+.cell {
+    flex: 1;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: space-between;
+    height: 100%;
+}
+
+//make column classes 
+@for $index from $loop-start to $loop-end {
+    .col-#{$index} {
+        @include col($index);
+    }
+}
+
+//make offset classes
+@for $index from $loop-start to $loop-end {
+    .offset-#{$index} {
+        @include offset($index);
+    }
+}
