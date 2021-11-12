@@ -1,0 +1,100 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 5rem;
+}
+
+.main-content {
+    display: flex;
+    gap: 2rem;
+    box-shadow: 1px 1px 1px 3px rgba(4, 19, 61, .5);
+}
+
+.main-info {
+    background-color: rgba(128, 128, 128, .1);
+    padding: 2.5rem;
+    width: 100%;
+}
+
+.icon {
+    margin-top: 5rem;
+}
+
+.logo-icon {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+
+* {
+    font-size: 2.5rem;
+}
+
+.search-city::placeholder {
+    background-image: url(/images/Lupatest.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+/*card*/
+
+.card {
+    width: 30rem;
+    height: 32rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 3px rgba(4, 19, 61, .5);
+}
+
+.temperature {
+    font-size: 8rem;
+    color: orangered;
+}
+
+.vertical {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.t-b {
+    display: block;
+    color: orangered;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-top: .8rem;
+    padding: .1rem .3rem;
+}
+
+.card h2 {
+    font-weight: 100;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+.update {
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    height: 36px;
+    width: 100px;
+    margin: -50px -50px;
+    position: relative;
+    top: 10%;
+    left: 50%;
+}
