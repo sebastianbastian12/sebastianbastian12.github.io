@@ -1,0 +1,284 @@
+    @media (min-width:702px) {
+        /*Header*/
+        h1 {
+            font-size: 5rem;
+            color: var(--third-color);
+            margin: 0;
+        }
+        h2 {
+            font-size: 3.5rem;
+            color: var(--secondary-color);
+        }
+        /*Navigation*/
+        .navigation-links li a {
+            display: flex;
+            font-size: 2rem;
+        }
+        form select option {
+            font-size: 2rem;
+            text-align: center;
+            color: #04133D;
+            margin: 0;
+        }
+        .navigation li {
+            display: flex;
+        }
+        .navigation-links {
+            max-width: 90rem;
+            margin: 0rem auto 0 auto;
+            display: flex;
+            gap: 2rem;
+            font-size: 3rem;
+            text-align: center;
+            justify-content: center;
+            padding: 0 0 1.5rem 0;
+            border-top: 1px solid var(--secondary-color);
+            background-color: var(--primary-color);
+        }
+        .navigation-links li:first-child {
+            display: none;
+        }
+        /*Hero Image*/
+        .def-img {
+            display: block;
+            width: 100%;
+            height: 35rem;
+        }
+        @media (min-width: 865px) {
+            /*Table Forescast Section*/
+            table {
+                width: 0%;
+            }
+            table,
+            tr {
+                border-radius: 10px;
+            }
+            td {
+                border-radius: 10px 8px 10px 8px;
+            }
+            tbody {
+                display: block;
+            }
+            .days,
+            .symbols,
+            .temp {
+                display: flex;
+            }
+            .tHead1,
+            .tHead2,
+            .tHead3,
+            .tHead4,
+            .tHead5 {
+                padding: 2rem 6.2rem;
+            }
+            .tinfo1,
+            .tinfo2,
+            .tinfo3,
+            .tinfo4,
+            .tinfo5 {
+                padding: 2rem 5.5rem;
+                background-color: rgba(4, 19, 61, .7);
+                color: var(--secondary-color);
+            }
+            .tRow1,
+            .tRow2,
+            .tRow3,
+            .tRow4,
+            .tRow5 {
+                padding: 2rem 3.2rem;
+                font-size: 3rem;
+            }
+        }
+        /*main sections*/
+        main h2 {
+            border-radius: 5px;
+            margin: 20rem auto 5rem auto;
+            font-weight: 500;
+        }
+        .main-content__relative {
+            position: relative;
+            box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
+        }
+        /*Article*/
+        .main-content__section__article {
+            padding: 5rem;
+            box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
+        }
+        .main-content__section--heading {
+            color: var(--secondary-color);
+            background-color: rgba(4, 19, 61, .8);
+            padding: 2rem;
+            font-weight: 200;
+            max-width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+        /*Events section*/
+        .events {
+            max-width: 70rem;
+            margin: 7rem auto;
+            font-size: 2.5rem;
+            border-left: 10px double rgba(215, 121, 63, .6);
+            border-bottom: 10px double rgba(215, 121, 63, .6);
+            border-right: 10px double rgba(215, 121, 63, .6);
+            text-align: center;
+        }
+        .events h2 {
+            margin: 1rem 0 0 0;
+            font-size: 2.5rem;
+            padding: 2rem 0;
+            background-color: bisque;
+        }
+        .events2 {
+            max-width: 70rem;
+            margin: 7rem auto;
+            font-size: 2.5rem;
+            border-left: 10px double rgba(4, 19, 61, .8);
+            border-bottom: 10px double rgba(4, 19, 61, .8);
+            border-right: 10px double rgba(4, 19, 61, .8);
+            text-align: center;
+        }
+        .events2 h2 {
+            margin: 1rem 0 0 0;
+            font-size: 2.5rem;
+            padding: 2rem 0;
+            color: #04133D;
+            background-color: rgba(4, 19, 61, .6);
+        }
+        .events3 {
+            max-width: 70rem;
+            margin: 7rem auto;
+            font-size: 2.5rem;
+            border-left: 10px double rgb(76, 161, 163, .5);
+            border-bottom: 10px double rgb(76, 161, 163, .5);
+            border-right: 10px double rgb(76, 161, 163, .5);
+            text-align: center;
+        }
+        .events3 h2 {
+            margin: 1rem 0 0 0;
+            font-size: 2.5rem;
+            padding: 2rem 0;
+            color: #4ca1a3;
+            background-color: rgb(76, 161, 163, .5);
+        }
+        /*form section*/
+        .main {
+            max-width: 120rem;
+            margin: 0 auto;
+        }
+        form {
+            margin: 0 auto;
+            max-width: 100rem;
+        }
+        form fieldset {
+            margin: 2rem 0;
+            border: 1px solid rgba(215, 121, 63, .6);
+            border-radius: 10px;
+            padding: 3rem 2rem;
+            max-width: 100rem;
+        }
+        form label.uInfo input,
+        form input.iStorm,
+        form select.iStorm {
+            height: 54px;
+            width: 100%;
+            max-width: 100rem;
+            display: block;
+            border-radius: 4px;
+            border: 2px solid rgba(215, 121, 63, .6);
+            background-color: rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            padding: .75rem;
+            font-size: 2.2rem;
+            font-weight: 200;
+        }
+        form input.iStorm {
+            font-size: 2.5rem;
+        }
+        form input.button {
+            background-color: rgba(215, 121, 63, .6);
+            border: 7px double rgba(0, 0, 0, 0.5);
+            width: 96%;
+            max-width: 20rem;
+        }
+        /*Thanks page section*/
+        .b {
+            max-height: 120rem;
+        }
+        .bodyThanks {
+            height: 62.6rem;
+        }
+        @media (min-width: 560px) {
+            .tThanks1 {
+                max-width: 70rem;
+                margin: 25rem auto 2rem auto;
+                padding: 2rem 0;
+                width: 100%;
+                font-size: 3.2rem;
+                text-align: center;
+                color: #D7793F;
+                background-color: white;
+                border: 5px solid #04133D;
+                border-radius: 10px;
+            }
+            .tThanks2 {
+                max-width: 105rem;
+                margin: 0rem auto;
+                width: 100%;
+                font-size: 2rem;
+                color: #04133D;
+                background-color: white;
+                text-decoration: underline;
+                letter-spacing: -1px;
+            }
+        }
+        /*Image article*/
+        .def-img2 {
+            display: block;
+            float: right;
+            width: 60% !important;
+            margin: 4% 2% 0 2%;
+        }
+        .main-content__article--text {
+            font-size: 2.1rem;
+        }
+        .main-content__section--headingA {
+            border-radius: 5px;
+            margin: 2rem auto 0 auto;
+        }
+        /*Other sections*/
+        .main-content__section {
+            margin: 5rem 0;
+        }
+        /*Gallery*/
+        .info {
+            margin: 0 auto;
+        }
+        .sect-image:hover {
+            box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
+        }
+        @media (min-width: 500px) {
+            .header-gallery {
+                font-family: 'Secular One', sans-serif;
+                font-size: 4rem;
+                color: var(--third-color);
+                background-color: rgba(4, 19, 61, .8);
+                margin: 7rem 0 0 0;
+                padding: 2rem 0;
+            }
+            .content {
+                text-align: center;
+            }
+            .gallery {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .gallery picture img {
+                max-width: 100%;
+                margin-bottom: .5rem;
+            }
+        }
+        /*footer*/
+        footer {
+            font-size: 18px;
+        }
+    }

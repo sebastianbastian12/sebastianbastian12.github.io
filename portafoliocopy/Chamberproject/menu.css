@@ -1,0 +1,14 @@
+.h {
+    margin: 0 auto 2rem auto;
+    color: #99d98c;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 1px;
+    font-size: 2.5rem;
+}
+
+@media (min-width: 820px) {
+    .h {
+        display: none;
+    }
+}

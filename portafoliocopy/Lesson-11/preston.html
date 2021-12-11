@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather page that shows the Preston children page, and also a promotion pancake day on Saturdays.">
+    <link rel="shortcut icon" href="/Lesson4/images-04/favicon-04.svg" type="image/x-icon">
+    <link rel="preload" href="/normalize.css" as="style">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="preload" href="/Lesson6/small06.css" as="style">
+    <link rel="stylesheet" href="/Lesson6/small06.css">
+    <link rel="preload" href="/Lesson6/medium06.css" as="style">
+    <link rel="stylesheet" href="/Lesson6/medium06.css">
+    <link rel="preload" href="/Lesson6/large06.css" as="style">
+    <link rel="stylesheet" href="/Lesson6/large06.css">
+    <title>The W Today | Preston</title>
+</head>
+
+<body>
+    <div class="pancakes">
+        Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <header>
+        <div class="page-logo">
+
+            <a href="/Lesson-11/index.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-umbrella" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bc62d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 12a8 8 0 0 1 16 0z" />
+                <path d="M12 12v6a2 2 0 0 0 4 0" />
+              </svg></a>
+        </div>
+        <div class="text-header">
+            <h1>The W Today</h1>
+            <h2 class="h-header">know today, know success.</h2>
+        </div>
+    </header>
+    <div class="navigation">
+        <nav>
+
+            <ul class="navigation-links">
+                <li><button onclick="toggleMenu()">&#9776; Menu</button></li>
+                <li><a href="/Lesson-11/index.html">Home</a></li>
+                <li class="active"><a href="/Lesson-11/preston.html">Preston</a></li>
+                <li><a href="/Lesson-11/sodasprings.html">Soda Springs</a></li>
+                <li><a href="/Lesson-11/fishhaven.html">Fish Haven</a></li>
+                <li><a href="/Lesson-11/stormcenter.html">Storm Center</a></li>
+                <li><a href="/Lesson-11/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+
+        <h2>Preston Idaho</h2>
+
+        <div class="main-content">
+            <div class="main-content__relative">
+                <div class="main-content__hero">
+                    <!--<picture>
+                        <source media="(max-width: 525px)" srcset="/Lesson6/images-06/small526px.jpg">
+                        <source media="(max-width: 800px)" srcset="/Lesson6/images-06/medium800px.jpg">
+                        <source media="(max-width: 1200px)" srcset="/Lesson6/images-06/large1200px.jpg">
+                        <img class="def-img" src="/Lesson6/images-06/herodefault.jpg" alt="Hero">
+
+                    </picture>-->
+
+                    <section class="weather-summary">
+                        <h3 class="main-content__section--headingW">Weather Summary</h3>
+                        <ul>
+                            <li>Currently: <span class="currently"></span></li>
+                            <li>High:<span class="temperature"></span></li>
+                            <li>Humidity:<span class="humidity"></span></li>
+                            <li>Wind Chill: <span class="wChill"></span></li>
+                            <li>Wind Speed: <span class="speed"></span></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+            <section class="main-content__section--forecast">
+                <h3 class="main-content__section--heading">5 Day Forecast</h3>
+                <table>
+                    <tbody>
+
+
+                        <tr class="days">
+                            <td class="tHead1"></td>
+                            <td class="tHead2"></td>
+                            <td class="tHead3"></td>
+                            <td class="tHead4"></td>
+                            <td class="tHead5"></td>
+
+                        </tr>
+
+                        <tr class="symbols">
+
+                            <td class="tRow1"><img src="" alt="" class="icon1"></td>
+                            <td class="tRow2"><img src="" alt="" class="icon2"></td>
+                            <td class="tRow3"><img src="" alt="" class="icon3"></td>
+                            <td class="tRow4"><img src="" alt="" class="icon4"></td>
+                            <td class="tRow5"><img src="" alt="" class="icon5"></td>
+                        </tr>
+
+
+                        <tr class="temp">
+                            <td class="tinfo1"></td>
+                            <td class="tinfo2"></td>
+                            <td class="tinfo3"></td>
+                            <td class="tinfo4"></td>
+                            <td class="tinfo5"></td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+                <small id="table">Forecast info provide by openweathermap.org <a target="_blank" href="https://openweathermap.org/">Page</a></small>
+            </section>
+            <div class="events3">
+                <h2 class="eventsT3">Upcoming Events</h2>
+            </div>
+
+            <section class="main-content__section__article">
+                <h3 class="main-content__section--headingA">5 interesting things to do in Preston in this season weather.</h3>
+                <picture>
+                    <source media="(max-width: 525px)" srcset="/Lesson6/images-06/prestonSmall.webp">
+                    <source media="(max-width: 800px)" srcset="/Lesson6/images-06/prestonMedium.webp">
+                    <source media="(max-width: 1400px)" srcset="/Lesson6/images-06/prestonLarge.webp">
+                    <img class="def-img2" src="/Lesson6/images-06/prestonDefault.webp" alt="Child At Preston Park">
+
+                </picture>
+                <p class="main-content__article--text">
+                    In Southeastern Idaho’s Cache Valley, Preston is a rural town with astounding mountain scenery on its doorstep.
+                </p>
+                <p class="main-content__article--text">
+                    On the eastern flank are the Bear River Mountains, and in a few minutes flat you can be fishing at a crystal clear lake or hiking in an alpine meadow.
+                </p>
+                <p class="main-content__article--text">
+                    Franklin, Idaho’s oldest European settlement is on Preston’s outskirts and is a starting point for an historic byway, connecting a long chain of sites relating to the region’s Native American past, pioneer days and the Oregon Trail, which passed by the
+                    Cache Valley to the north. As the Franklin County Seat, Preston hosts some major events at the fairground on the west side of town, and none are bigger than That Famous Preston Night Rodeo, which is celebrated with three days of carnival
+                    amusements and parades.
+                </p>
+                <p class="main-content__article--text">
+                    Places to visit:
+                </p>
+                <p class="main-content__article--text">
+                    1. Pioneer Historic Byway
+                </p>
+                <p class="main-content__article--text">
+                    2. Bear River Massacre Site
+                </p>
+                <p class="main-content__article--text">
+                    3. Napoleon Dynamite Filming Locations
+                </p>
+                <p class="main-content__article--text">
+                    4. Preston Park
+                </p>
+                <p class="main-content__article--text">
+                    5. Franklin Relic Hall
+                </p>
+                <small>Article provide by <a target="_blank" href="https://www.thecrazytourist.com/15-best-things-to-do-in-preston-idaho/">Page</a></small>
+
+
+
+            </section>
+
+            <div class="main-content__section--info">
+                <h3 class="main-content__section--heading">Contact Information</h3>
+                <div class="overall">
+                    <div class="imagen">
+                        <img class="imgLocation" src="/Lesson6/images-06/map.PNG" alt="mapLocation"></div>
+
+                    <div class="contact-area--info">
+
+
+                        <div class="uno">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                                    <path d="M15 7a2 2 0 0 1 2 2" />
+                                    <path d="M15 3a6 6 0 0 1 6 6" />
+                                  </svg>
+
+                            <p> + 1 324 568 9874</p>
+
+
+                        </div>
+                        <div class="uno">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <rect x="3" y="5" width="18" height="14" rx="2" />
+                                <polyline points="3 7 12 13 21 7" />
+                              </svg>
+                            <p>contactus@thewday.com</p>
+
+                        </div>
+                        <div class="uno">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="12" cy="11" r="3" />
+                                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                            </svg>
+                            <p>False St 123 Springfield Tomorrowland</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+    <footer>
+        <span>&copy;</span><span id="currentyear"></span><span> | Sebastian Oliveros Vasquez | Bogota, Colombia | </span><a target="_blank" href="https://www.byui.edu/online">
+        BYU-I Online Learning</a>
+        <br><span id="currentdate"></span>
+        <br><span id="lastupdated"></span>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/javascript.js"></script>
+    <script src="/Lesson10/weatherapi.js"></script>
+
+
+
+</body>
+
+</html>

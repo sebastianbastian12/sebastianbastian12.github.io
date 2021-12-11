@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather page that shows the Preston children page, and also a promotion pancake day on Saturdays.">
+    <link rel="shortcut icon" href="/Lesson4/images-04/favicon-04.svg" type="image/x-icon">
+    <link rel="preload" href="/normalize.css" as="style">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="preload" href="/Lesson6/small06.css" as="style">
+    <link rel="stylesheet" href="/Lesson6/small06.css">
+    <link rel="preload" href="/Lesson6/medium06.css" as="style">
+    <link rel="stylesheet" href="/Lesson6/medium06.css">
+    <link rel="preload" href="/Lesson6/large06.css" as="style">
+    <link rel="stylesheet" href="/Lesson6/large06.css">
+    <title>The W Today | Preston</title>
+</head>
+
+<body>
+    <div class="pancakes">
+        Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <header>
+        <div class="page-logo">
+            <img src="/Lesson4/images-04/logo-04.svg" alt="Logo-page">
+        </div>
+        <div class="text-header">
+            <h1>The W Today</h1>
+            <h2 class="h-header">know today, know success.</h2>
+        </div>
+    </header>
+    <div class="navigation">
+        <nav>
+
+            <ul class="navigation-links">
+                <li><button onclick="toggleMenu()">&#9776; Menu</button></li>
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="/Lesson10/preston-10.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li class="active"><a href="/Lesson7/">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+
+        <h2>Preston Idaho</h2>
+
+        <div class="main-content">
+            <div class="main-content__relative">
+                <div class="main-content__hero">
+                    <picture>
+                        <source media="(max-width: 525px)" srcset="/Lesson6/images-06/small526px.jpg">
+                        <source media="(max-width: 800px)" srcset="/Lesson6/images-06/medium800px.jpg">
+                        <source media="(max-width: 1200px)" srcset="/Lesson6/images-06/large1200px.jpg">
+                        <img class="def-img" src="/Lesson6/images-06/herodefault.jpg" alt="Hero">
+
+                    </picture>
+
+                    <section class="weather-summary">
+                        <h3 class="main-content__section--headingW">Weather Summary</h3>
+                        <ul>
+                            <li>Currently: <span>Sunny</span></li>
+                            <li>High:<span class="temperature"></span></li>
+                            <li>Humidity:<span> 48%</span></li>
+                            <li>Wind Chill: <span class="wChill"></span></li>
+                            <li>Wind Speed: <span class="speed"></span></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+
+            <section class="main-content__section">
+                <h3 class="main-content__section--heading">5 Day Forecast</h3>
+            </section>
+
+            <section class="main-content__section__article">
+                <h3 class="main-content__section--headingA">A Donut shower is forecast this coming week</h3>
+                <picture>
+                    <source media="(max-width: 525px)" srcset="/Lesson6/images-06/small262.5px.jpg">
+                    <source media="(max-width: 800px)" srcset="/Lesson6/images-06/medium400px.jpg">
+                    <source media="(max-width: 1400px)" srcset="/Lesson6/images-06/large600px.jpg">
+                    <img class="def-img2" src="/Lesson6/images-06/donutdefault.jpg" alt="donut">
+
+                </picture>
+                <p class="main-content__article--text">
+                    Aenean eu scelerisque massa. Curabitur non ex vitae dui pretium varius. Nulla enim ex, lobortis vel sodales sit amet, sagittis in metus. Proin id erat suscipit, sodales nisl ut, pellentesque mi. Donec vel eros at ipsum hendrerit mollis vitae imperdiet
+                    ex. Maecenas sit amet vulputate lacus. Sed massa nibh, laoreet eget purus eu, accumsan efficitur ipsum. Morbi suscipit odio sed magna sagittis, eu hendrerit massa blandit. Praesent ac convallis ante. Integer vel placerat justo. Ut
+                    volutpat urna eu risus varius blandit. Vestibulum posuere rhoncus lacus.</p>
+
+                <p class="main-content__article--text"> Vestibulum aliquam sollicitudin arcu, id accumsan diam hendrerit sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eget elit et quam laoreet mattis eu at quam. Pellentesque habitant
+                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut consectetur arcu vel sodales dignissim. Vivamus auctor nisl nec velit bibendum, quis bibendum ante eleifend. Proin at justo arcu. Maecenas dapibus rhoncus ipsum.
+                    Nulla aliquet est rutrum, rutrum arcu sed, tempor enim. Phasellus auctor hendrerit diam, a tincidunt eros. Vivamus euismod vestibulum rhoncus. Cras eros dui, porta eget nulla eu, maximus vehicula nisl. Phasellus massa diam, sagittis
+                    eget risus ac, luctus suscipit sapien. Nam vulputate vitae dolor nec feugiat.Vestibulum aliquam sollicitudin arcu, id accumsan diam hendrerit sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    Vivamus eget elit et quam laoreet mattis eu at quam. </p>
+
+
+            </section>
+
+            <section class="main-content__section">
+                <h3 class="main-content__section--heading">Contact Information</h3>
+            </section>
+
+
+        </div>
+    </main>
+    <footer>
+        <span>&copy;</span><span id="currentyear"></span><span> | Sebastian Oliveros Vasquez | Bogota, Colombia | </span><a target="_blank" href="https://www.byui.edu/online">
+        BYU-I Online Learning</a>
+        <br><span id="currentdate"></span>
+        <br><span id="lastupdated"></span>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/javascript.js"></script>
+    <script src="/Lesson6/windChill06.js"></script>
+    <script src="/Lesson6/countingtimes.js"></script>
+
+
+</body>
+
+</html>

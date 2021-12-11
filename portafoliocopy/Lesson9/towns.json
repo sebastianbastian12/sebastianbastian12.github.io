@@ -1,0 +1,43 @@
+{
+    "towns": [{
+            "name": "Soda Springs",
+            "photo": "https://live.staticflickr.com/8167/7641794490_9c3285190f_b.jpg",
+            "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
+            "yearFounded": 1858,
+            "currentPopulation": 2985,
+            "averageRainfall": 15.75,
+            "events": [
+                "February 29: Geyser Song Day",
+                "May 1-6: Days of May Celebration",
+                "October 15-16: Octoberfest"
+            ]
+        },
+        {
+            "name": "Fish Haven",
+            "photo": "https://aallred406.github.io/assignments/weathersite/images/fish-haven-1200px.jpg",
+            "motto": "This is Fish Heaven.",
+            "yearFounded": 1864,
+            "currentPopulation": 501,
+            "averageRainfall": 14.20,
+            "events": [
+                "April 1: How Big Was That Fish Day",
+                "May 15-30: Rush the Creek Days",
+                "July 24: Bear Lake Blunder Run",
+                "December 12: Light the Tree"
+            ]
+        },
+        {
+            "name": "Preston",
+            "photo": "https://assets.landandfarm.com/resizedimages/640/1024/l/80/1-3792258531",
+            "motto": "Home of Napoleon Dynamite.",
+            "yearFounded": 1866,
+            "currentPopulation": 5204,
+            "averageRainfall": 16.65,
+            "events": [
+                "March 29: Work Creek Revival",
+                "July 8-12: Napoleon Dynamite Festival",
+                "November 2-4: Freedom Days"
+            ]
+        }
+    ]
+}

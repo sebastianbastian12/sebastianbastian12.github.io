@@ -1,0 +1,352 @@
+        @media (min-width: 820px) {
+            html {
+                font-size: 62.5%;
+                box-sizing: border-box;
+            }
+            *,
+            *:before,
+            *:after {
+                box-sizing: inherit;
+            }
+             :root {
+                --primary: #ffffff;
+                --secondary: #e5e5e5;
+                --third: #219ebc;
+                --fourth: #99d98c;
+                --fifth: #2f4f4f;
+                --sixth: #f0f8ff;
+            }
+            /*header*/
+            .principal-heading {
+                font-size: 5rem;
+            }
+            .slogan {
+                font-size: 3rem;
+            }
+            .image-logo {
+                width: 25rem;
+                margin: 5rem auto;
+            }
+            .h {
+                display: none;
+            }
+            .header-navigation li {
+                display: flex;
+            }
+            .cards {
+                margin: 0 auto;
+                display: table;
+                padding: 2rem;
+            }
+            @media (min-width: 1200px) {
+                .cards {
+                    display: flex;
+                    gap: 2rem;
+                    justify-content: center;
+                    padding: 2rem;
+                }
+            }
+            .cards-section h1 {
+                font-size: 5rem !important;
+                padding: 10rem 0;
+            }
+            .space1 {
+                background-color: aliceblue;
+                padding: 10rem 0;
+            }
+            .services {
+                max-width: 60rem;
+                padding: 2rem;
+            }
+            /*Main Images*/
+            .center-image_b {
+                float: left;
+                width: 30rem;
+                margin: 0 2rem 0 0;
+            }
+            .main-images_images {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+                margin: 0 2rem;
+            }
+            @media (min-width: 1300px) {
+                .main-images_images {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 2rem;
+                    margin: 0 2rem;
+                }
+            }
+            .main-images p {
+                max-width: 120rem;
+            }
+            .main-images img {
+                width: 70rem;
+            }
+            /*Images-city section*/
+            .bogota-text h1 {
+                font-size: 5rem;
+                padding: 10rem 0;
+            }
+            .space2 {
+                background-color: rgba(153, 217, 140, .5);
+                padding: 10rem 0;
+                margin: 10rem 0 5rem 0;
+            }
+            /*Main weather summary - companies*/
+            .wc-section h1 {
+                font-size: 5rem !important;
+                padding: 10rem 0;
+            }
+            .wc-division {
+                margin: 0 auto;
+                display: block;
+                padding: 5rem;
+            }
+            @media (min-width: 1400px) {
+                .wc-division {
+                    max-width: 200rem;
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5rem;
+                    padding: 5rem;
+                }
+            }
+            .wf {
+                max-width: 50rem;
+                margin: 0 auto 5rem auto;
+                text-align: center;
+                background-color: rgba(153, 217, 140, .2);
+                padding: 8rem;
+                box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
+            }
+            @media (min-width: 1400px) {
+                .wf {
+                    margin-top: -25rem;
+                }
+            }
+            /*Companies division*/
+            .companies {
+                margin: 0 auto;
+                display: block;
+            }
+            .company {
+                margin: 1rem 0;
+                padding: 2rem 2rem 8rem 2rem;
+            }
+            .company-image {
+                float: left;
+                max-width: 100%;
+                width: 35rem;
+                margin-right: 2rem;
+            }
+            .company h3 {
+                text-align: start;
+            }
+            /*Section events, join, contact*/
+            .space3 {
+                padding: 10rem 0;
+            }
+            .ejc-division {
+                display: block;
+                max-width: 110rem;
+                margin: 0 auto;
+            }
+            @media (min-width: 1400px) {
+                .ejc-division {
+                    max-width: 250rem;
+                    margin: 0 2rem;
+                    display: flex;
+                    align-items: center;
+                    gap: 2rem;
+                }
+            }
+            .image-contact {
+                width: 50rem;
+            }
+            .contact-division_items h3 {
+                color: #D7793F;
+                margin-bottom: 5rem !important;
+            }
+            .channels {
+                display: flex;
+                gap: 3rem;
+                align-items: center;
+            }
+            /*City page*/
+            .hero-image_city {
+                background-image: url(/Chamberproject/CCPCImages/bogotaHero.jpg);
+                background-position: center center;
+                background-size: cover;
+                height: 80vh;
+            }
+            .hero-section {
+                margin-top: 0;
+            }
+            .hero-section_city {
+                padding-top: 30rem;
+            }
+            .hero-section_city h1 {
+                font-size: 10rem;
+                padding: 9rem 0rem;
+            }
+            @media (min-width: 1400px) {
+                .hero-section_city h1 {
+                    font-size: 15rem;
+                    padding: 10rem 0rem;
+                }
+            }
+            .demo-city_title h2 {
+                background-color: rgba(153, 217, 140, .3);
+                color: #006400;
+                font-size: 5rem;
+                margin: 0 auto !important;
+                padding: 10rem 0;
+                border-top: 3px solid #006400;
+                border-bottom: 3px solid #006400;
+            }
+            /*City information*/
+            /*know division 1*/
+            .know-section h1 {
+                font-size: 5rem;
+                padding: 10rem 0;
+            }
+            .know-division1 {
+                display: block;
+            }
+            @media (min-width: 1400px) {
+                .know-division1 {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 3rem;
+                    margin: 10rem 2rem;
+                }
+            }
+            /*know division2*/
+            .know-division2 {
+                display: block;
+            }
+            @media (min-width:1400px) {
+                .know-division2 {
+                    display: grid;
+                    grid-template-columns: 70% 30%;
+                    gap: 3rem;
+                    margin: 0 5rem;
+                }
+            }
+            .know4-know5_division {
+                display: flex;
+                gap: 3rem;
+                border-radius: 15px;
+                border: 20px solid var(--fifth);
+                padding: 5rem;
+            }
+            input {
+                height: 64px;
+                padding: .75rem;
+            }
+            .mh {
+                font-size: 4rem !important;
+            }
+            .boton-submit {
+                max-width: 30rem;
+                font-family: 'Fira Sans', sans-serif;
+                font-weight: 700;
+                font-size: 2rem;
+                background-color: #99d98c;
+                padding: 2rem;
+                border-radius: 10px;
+                margin: 2rem 0 10rem 0;
+            }
+            .thanks-content1 h1 {
+                font-size: 12rem;
+            }
+            .thanks-content1 h2 {
+                font-size: 3.5rem;
+                font-weight: 600;
+                margin: 0;
+            }
+            /*cards companies*/
+            .directory-titles h1 {
+                font-size: 10rem;
+                padding: 10rem 0;
+            }
+            .directory-titles h3 {
+                font-size: 5rem;
+                padding: 5rem;
+            }
+            #company-cards {
+                display: block;
+                max-width: 70rem;
+            }
+            @media (min-width: 1200px) {
+                #company-cards {
+                    max-width: 150rem;
+                    margin: 0 auto;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    margin: 5rem 2rem 10rem 2rem;
+                    gap: 2rem
+                }
+                .buttons button {
+                    display: block !important;
+                    padding: 2rem;
+                    background-color: transparent;
+                    border-radius: 15px;
+                    border: 3px solid darkgray;
+                    background-color: var(--sixth);
+                }
+            }
+            .hero-directory {
+                height: 80vh;
+            }
+            .hero-directory h1 {
+                font-size: 10rem;
+            }
+            /*Contact page*/
+            /*Contact section*/
+            .image-contact2 {
+                max-width: 100%;
+                width: 50rem;
+            }
+            .contact-division2 {
+                display: block;
+                max-width: 70rem;
+            }
+            @media (min-width: 1200px) {
+                .contact-division2 {
+                    max-width: 120rem;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            /*contact form*/
+            .mh2 {
+                font-size: 4rem;
+            }
+            .list-contact_page h2 {
+                font-size: 5rem;
+            }
+            .list-contact_page-lista h3 {
+                font-size: 3.5rem;
+            }
+            .list-contact_page-lista ul li {
+                font-size: 3rem;
+            }
+            .list-contact_page {
+                margin: 15rem auto 5rem auto;
+                max-width: 120rem;
+            }
+            /*footer*/
+            .footer-content span {
+                font-size: 3rem;
+            }
+            @media (min-width: 1400px) {
+                .events-division {
+                    margin-top: -10rem;
+                }
+            }
+        }

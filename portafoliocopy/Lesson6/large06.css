@@ -1,0 +1,187 @@
+@media (min-width: 768px) {
+    h1 {
+        font-size: 7rem;
+        color: var(--third-color);
+        margin: 0;
+    }
+    h2 {
+        font-size: 5.5rem;
+        color: var(--secondary-color);
+    }
+    .p-header {
+        font-size: 3rem;
+    }
+    /*Navigation*/
+    .navigation-links {
+        display: flex;
+    }
+    .navigation-links li a {
+        font-size: 2.3rem;
+        font-weight: 500;
+    }
+    /*Hero Image*/
+    .def-img {
+        display: block;
+        width: 100%;
+        height: 50rem;
+    }
+    /*main sections*/
+    /*Article*/
+    /*
+    .main-content__article--image {
+        float: right;
+        max-width: 35rem;
+        margin: 3rem 0 0 1.5rem;
+    }*/
+    /*Thanks section*/
+    @media (min-width: 1350px) {
+        .b {
+            max-height: 120rem;
+        }
+        .bodyThanks {
+            height: 61rem;
+        }
+        .tThanks1 {
+            max-width: 108rem;
+            margin: 25rem auto 2rem auto;
+            width: 100%;
+            font-size: 5rem;
+            text-align: center;
+            color: #D7793F;
+            background-color: white;
+            border: 5px solid #04133D;
+            border-radius: 10px;
+        }
+        .tThanks2 {
+            max-width: 105rem;
+            margin: 0 auto;
+            width: 100%;
+            font-size: 2.5rem;
+            color: #04133D;
+            background-color: white;
+            text-decoration: underline;
+            letter-spacing: -1px;
+        }
+    }
+    /*Image article*/
+    .def-img2 {
+        display: block;
+        float: right;
+        width: 45% !important;
+        margin: 3.5% 2% 0 2%;
+    }
+    .main-content__article--text {
+        font-size: 2.4rem;
+    }
+    .main-content__section--headingA {
+        border-radius: 5px;
+    }
+    .main-content__section--forecast {
+        border-radius: 10px 10px 0 0;
+    }
+    .sect-image:hover {
+        box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
+    }
+    @media (min-width: 868px) {
+        /*Gallery*/
+        main h1 {
+            font-family: 'Secular One', sans-serif;
+            font-size: 4rem;
+            color: var(--third-color);
+            background-color: rgba(4, 19, 61, .8);
+            margin: 9rem 0 0 0;
+            padding: 2rem 0;
+        }
+        .content {
+            margin: 0 auto;
+            max-width: 180rem;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-bottom: 20rem;
+        }
+        .gallery picture img {
+            max-width: 100%;
+            margin: 0 0 1rem 0;
+        }
+    }
+    /*Contact Section*/
+    .main-content__section--info {
+        max-width: 120rem;
+        margin: 15rem auto 0 auto;
+        background-color: rgba(215, 121, 63, .7);
+    }
+    @media (min-width:1100px) {
+        .overall {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr;
+            padding: 5rem;
+            gap: 15rem;
+        }
+    }
+    .imgLocation {
+        padding: 0 0 0 2rem;
+        position: static;
+        max-width: 120%;
+    }
+    .contact-area--info {
+        grid-column: 2/3;
+        margin: 0;
+    }
+    .uno {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .iUno {
+        margin-right: 2rem;
+    }
+    /*footer*/
+    footer {
+        font-size: 20px;
+    }
+    /*-------------------------------------------*/
+    .main {
+        max-width: 120rem;
+        margin: 0 auto;
+    }
+    form {
+        margin: 0 auto;
+        max-width: 100rem;
+    }
+    form fieldset {
+        margin: 2rem 0;
+        border: 1px solid rgba(215, 121, 63, .6);
+        border-radius: 10px;
+        padding: 3rem 2rem;
+        max-width: 100rem;
+    }
+    form legend,
+    label {
+        display: block;
+        color: #04133D;
+        font-size: 2.2rem;
+    }
+    form label.uInfo input,
+    form input.iStorm,
+    form select.iStorm {
+        height: 64px;
+        width: 100%;
+        max-width: 100rem;
+        display: block;
+        border-radius: 4px;
+        border: 2px solid rgba(215, 121, 63, .6);
+        background-color: rgba(0, 0, 0, 0.1);
+        margin-bottom: 2rem;
+        padding: .75rem;
+    }
+    form label.iStorm__radio input {
+        margin-top: 1.5rem;
+    }
+    form label.iStorm {
+        margin-top: 3rem;
+    }
+}

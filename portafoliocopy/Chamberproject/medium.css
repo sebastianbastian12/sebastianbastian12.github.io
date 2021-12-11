@@ -1,0 +1,226 @@
+@media (min-width: 800px) {
+    html {
+        font-size: 62.5%;
+        box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+     :root {
+        --primary: #ffffff;
+        --secondary: #e5e5e5;
+        --third: #219ebc;
+        --fourth: #99d98c;
+        --fifth: #2f4f4f;
+        --sixth: #f0f8ff;
+    }
+    /*header*/
+    .header-section {
+        border: 30px solid var(--secondary);
+    }
+    .principal-heading {
+        font-size: 4rem;
+    }
+    .slogan {
+        font-size: 2.8rem;
+    }
+    .image-logo {
+        width: 22rem;
+        margin: 5rem auto;
+    }
+    .navigation-link {
+        display: flex;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+    /*Main services Cards*/
+    .cards {
+        display: table;
+    }
+    .services {
+        padding: 2rem;
+    }
+    /*Main Images*/
+    .main-images_images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .main-images img {
+        width: 50rem;
+    }
+    /*Images-city section*/
+    .bogota-text h1 {
+        font-size: 4rem;
+        padding: 9rem 0;
+    }
+    .space2 {
+        background-color: rgba(153, 217, 140, .5);
+        padding: 10rem 0;
+        margin: 9rem 0 4rem 0;
+    }
+    /*Main weather summary - companies*/
+    .wc-section h1 {
+        font-size: 3.5rem !important;
+        padding: 9rem 0;
+    }
+    .wf {
+        margin: 0 0 2rem 0;
+        text-align: center;
+        background-color: rgba(153, 217, 140, .2);
+        padding: 8rem;
+        box-shadow: 0px 4px 30px 15px rgba(4, 19, 61, .3);
+    }
+    /*Companies division*/
+    .companies {
+        margin: 0 auto;
+        display: block;
+    }
+    .company {
+        margin: 8rem 0;
+    }
+    .company-image {
+        max-width: 100%;
+        width: 70rem;
+        margin-right: 2rem;
+    }
+    .company h3 {
+        text-align: center;
+    }
+    /*Section events, join, contact*/
+    .space3 {
+        padding: 9rem 0;
+    }
+    .space3 h1 {
+        font-size: 3.5rem;
+    }
+    .ejc-division {
+        display: block;
+        max-width: 110rem;
+        margin: 0 auto;
+    }
+    .events-division h2 {
+        margin: 10rem 0;
+        font-size: 3.5rem;
+        color: #219ebc;
+        padding: 2rem 5rem;
+        background-color: var(--sixth);
+        border: 3px solid var(--third);
+    }
+    .image-contact {
+        width: 50rem;
+    }
+    .contact-division_items h3 {
+        color: #D7793F;
+        margin-bottom: 5rem !important;
+    }
+    .channels {
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+    }
+    /*City page*/
+    .hero-image_city {
+        background-image: url(/Chamberproject/CCPCImages/bogotaHero.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 80vh;
+    }
+    .hero-section {
+        margin-top: 0;
+    }
+    .hero-section_city {
+        padding-top: 30rem;
+    }
+    .hero-section_city h1 {
+        font-size: 10rem;
+        padding: 9rem 0rem;
+    }
+    .demo-city_title h2 {
+        background-color: rgba(153, 217, 140, .3);
+        color: #006400;
+        font-size: 4rem;
+        margin: 0 auto !important;
+        padding: 8rem 0;
+        border-top: 3px solid #006400;
+        border-bottom: 3px solid #006400;
+    }
+    /*City information*/
+    /*know division 1*/
+    .know-section h1 {
+        font-size: 4rem;
+        padding: 9rem 0;
+    }
+    input {
+        height: 54px;
+        padding: .70rem;
+    }
+    .mh {
+        font-size: 3rem !important;
+    }
+    .thanks-content1 h1 {
+        font-size: 10rem;
+    }
+    .thanks-content1 h2 {
+        font-size: 3rem;
+        font-weight: 600;
+        margin: 0;
+    }
+    /*cards companies*/
+    #company-cards {
+        display: block;
+    }
+    .hero-directory {
+        height: 65vh;
+    }
+    .hero-directory h1 {
+        font-size: 8.5rem;
+    }
+    /*Contact page*/
+    /*Contact section*/
+    .division-contact_page {
+        margin: 0 5rem;
+    }
+    .division-contact_page h2 {
+        font-size: 4rem;
+    }
+    .image-contact2 {
+        max-width: 100%;
+        width: 50rem;
+    }
+    .contact-division2 {
+        display: block;
+    }
+    /*contact form*/
+    .mh2 {
+        font-size: 3rem;
+    }
+    .list-contact_page h2 {
+        font-size: 4rem;
+    }
+    .list-contact_page-lista h3 {
+        font-size: 3rem;
+    }
+    .list-contact_page-lista ul li {
+        font-size: 2.8rem;
+    }
+    .list-contact_page {
+        margin: 15rem auto 5rem auto;
+        max-width: 96%;
+        margin: 2%;
+    }
+    /*footer*/
+    .footer-content span {
+        font-size: 2.8rem;
+    }
+    .directory-titles h1 {
+        font-size: 8rem;
+        padding: 8rem 0;
+    }
+    .directory-titles h3 {
+        font-size: 3.5rem;
+        padding: 3.5rem;
+    }
+}

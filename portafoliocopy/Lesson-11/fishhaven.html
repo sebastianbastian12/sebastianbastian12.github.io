@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather page that shows the Preston children page, and also a promotion pancake day on Saturdays.">
+    <link rel="shortcut icon" href="/Lesson4/images-04/favicon-04.svg" type="image/x-icon">
+    <link rel="preload" href="/normalize.css" as="style">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="preload" href="/Lesson6/small06.css" as="style">
+    <link rel="stylesheet" href="/Lesson6/small06.css">
+    <link rel="preload" href="/Lesson6/medium06.css" as="style">
+    <link rel="stylesheet" href="/Lesson6/medium06.css">
+    <link rel="preload" href="/Lesson6/large06.css" as="style">
+    <link rel="stylesheet" href="/Lesson6/large06.css">
+    <title>The W Today | Preston</title>
+</head>
+
+<body>
+    <div class="pancakes">
+        Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <header>
+        <div class="page-logo">
+
+            <a href="/Lesson-11/index.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-umbrella" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bc62d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 12a8 8 0 0 1 16 0z" />
+                <path d="M12 12v6a2 2 0 0 0 4 0" />
+              </svg></a>
+        </div>
+        <div class="text-header">
+            <h1>The W Today</h1>
+            <h2 class="h-header">know today, know success.</h2>
+        </div>
+    </header>
+    <div class="navigation">
+        <nav>
+
+            <ul class="navigation-links">
+                <li><button onclick="toggleMenu()">&#9776; Menu</button></li>
+                <li><a href="/Lesson-11/index.html">Home</a></li>
+                <li><a href="/Lesson-11/preston.html">Preston</a></li>
+                <li><a href="/Lesson-11/sodasprings.html">Soda Springs</a></li>
+                <li class="active"><a href="/Lesson-11/fishhaven.html">Fish Haven</a></li>
+                <li><a href="/Lesson-11/stormcenter.html">Storm Center</a></li>
+                <li><a href="/Lesson-11/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+
+        <h2>Fish Haven Idaho</h2>
+
+        <div class="main-content">
+            <div class="main-content__relative">
+                <div class="main-content__hero">
+                    <!--<picture>
+                        <source media="(max-width: 525px)" srcset="/Lesson6/images-06/small526px.jpg">
+                        <source media="(max-width: 800px)" srcset="/Lesson6/images-06/medium800px.jpg">
+                        <source media="(max-width: 1200px)" srcset="/Lesson6/images-06/large1200px.jpg">
+                        <img class="def-img" src="/Lesson6/images-06/herodefault.jpg" alt="Hero">
+
+                    </picture>-->
+
+                    <section class="weather-summary">
+                        <h3 class="main-content__section--headingW">Weather Summary</h3>
+                        <ul>
+                            <li>Currently: <span class="currently"></span></li>
+                            <li>High:<span class="temperature"></span></li>
+                            <li>Humidity:<span class="humidity"></span></li>
+                            <li>Wind Chill: <span class="wChill"></span></li>
+                            <li>Wind Speed: <span class="speed"></span></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+            <section class="main-content__section--forecast">
+                <h3 class="main-content__section--heading">5 Day Forecast</h3>
+                <table>
+                    <tbody>
+
+
+                        <tr class="days">
+                            <td class="tHead1"></td>
+                            <td class="tHead2"></td>
+                            <td class="tHead3"></td>
+                            <td class="tHead4"></td>
+                            <td class="tHead5"></td>
+
+                        </tr>
+
+                        <tr class="symbols">
+
+                            <td class="tRow1"><img src="" alt="" class="icon1"></td>
+                            <td class="tRow2"><img src="" alt="" class="icon2"></td>
+                            <td class="tRow3"><img src="" alt="" class="icon3"></td>
+                            <td class="tRow4"><img src="" alt="" class="icon4"></td>
+                            <td class="tRow5"><img src="" alt="" class="icon5"></td>
+                        </tr>
+
+
+                        <tr class="temp">
+                            <td class="tinfo1"></td>
+                            <td class="tinfo2"></td>
+                            <td class="tinfo3"></td>
+                            <td class="tinfo4"></td>
+                            <td class="tinfo5"></td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+                <small id="table">Forecast info provide by openweathermap.org <a target="_blank" href="https://openweathermap.org/">Page</a></small>
+            </section>
+            <div class="events2">
+                <h2 class="eventsT2">Upcoming Events</h2>
+            </div>
+
+            <section class="main-content__section__article">
+                <h3 class="main-content__section--headingA">Strong cookie tornado in Fish Haven, Idaho.</h3>
+                <picture>
+                    <source media="(max-width: 525px)" srcset="/Lesson6/images-06/fishSmall.webp">
+                    <source media="(max-width: 800px)" srcset="/Lesson6/images-06/fishMedium.webp">
+                    <source media="(max-width: 1400px)" srcset="/Lesson6/images-06/fishLarge.webp">
+                    <img class="def-img2" src="/Lesson6/images-06/fishDefault.webp" alt="Fishing Activity Photo">
+
+                </picture>
+                <p class="main-content__article--text">
+                    We’ve all been there. You get ready for a perfect day of fishing, pick your best lures and your favorite rod, only to sit out on the boat watching your line idle without a single bite. “What did I do wrong?” you ask yourself. A painful question pretty
+                    much every single angler has asked at some point. Well, we’ve got some good news and bad news for you: It wasn’t really your fault. But in a way, it was. Why did you strike out? The answer, more often than not, lies in how the weather
+                    affects fishing. And today, you’re going to learn all there is to know about it.
+                </p>
+                <p class="main-content__article--text">
+                    To understand exactly how the weather affects fish, we’ll first take a look at the individual weather factors that influence the way fish behave. We’ll then explore how these factors make fish tick (or tock). Last but not least, we’ll talk about the best
+                    weather conditions for fishing, as well as what you can do to make the most out of your outing.
+                </p>
+                <p class="main-content__article--text">
+                    By the time you’ve read this article, you’ll not only have a few geeky facts to tell your friends, you’ll also know some tricks to help you round the day off with a full cooler.
+                </p>
+                <p class="main-content__article--text">
+                    The weather can affect fishing in a number of ways. A few naturally-occurring elements are key influencers on the way fish behave. These are:
+                </p>
+                <p class="main-content__article--text">
+                    - Water temperature
+                </p>
+                <p class="main-content__article--text">
+                    - Wind
+                </p>
+                <p class="main-content__article--text">
+                    - Barometric pressure
+                </p>
+
+                <small>Article provide by <a target="_blank" href="https://fishingbooker.com/blog/how-weather-affects-fishing/">Page</a></small>
+
+
+
+            </section>
+
+
+
+
+        </div>
+    </main>
+    <footer>
+        <span>&copy;</span><span id="currentyear"></span><span> | Sebastian Oliveros Vasquez | Bogota, Colombia | </span><a target="_blank" href="https://www.byui.edu/online">
+        BYU-I Online Learning</a>
+        <br><span id="currentdate"></span>
+        <br><span id="lastupdated"></span>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/javascript.js"></script>
+    <script src="/Lesson-11/fishhaven.js"></script>
+
+
+
+</body>
+
+</html>
